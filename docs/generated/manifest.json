@@ -1,0 +1,3943 @@
+{
+  "manifestId": "manifest:v1:7308490881c8a2d2",
+  "snapshotId": "snapshot:v1:project:v1:e8b73bd9a7125baf:worktree:8f2933f00f682fab5cb09200025c55028d1c97b6bdf0f7b1e7abbecb9b7ee0e0",
+  "datasetSchemaVersion": "ts-codegraph.dataset@1",
+  "templatePack": {
+    "packName": "all",
+    "packVersion": "1.0.0"
+  },
+  "documents": [
+    {
+      "docId": "generated-doc:v1:b8ad7013663a561a",
+      "templateId": "package-overview",
+      "templateVersion": "1.0.0",
+      "conceptPath": "packages/ts-codegraph/overview.md",
+      "contentHash": "sha256:a90257f4c3f898a038a1f6d7bceacb62eefaa6ab5f8b27f10d0fed18ad54840b",
+      "sections": [
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:b8ad7013663a561a:objective",
+          "slotId": "objective",
+          "heading": "Objective",
+          "headingSlug": "objective"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:b8ad7013663a561a:exports",
+          "slotId": "exports",
+          "heading": "Exports",
+          "headingSlug": "exports"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:b8ad7013663a561a:dependencies",
+          "slotId": "dependencies",
+          "heading": "Dependencies",
+          "headingSlug": "dependencies"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:b8ad7013663a561a:evidence",
+          "slotId": "evidence",
+          "heading": "Sources Used",
+          "headingSlug": "sources-used"
+        }
+      ]
+    },
+    {
+      "docId": "generated-doc:v1:748940b8bad9b088",
+      "templateId": "api-reference",
+      "templateVersion": "1.0.0",
+      "conceptPath": "packages/ts-codegraph/api-reference.md",
+      "contentHash": "sha256:143513b1bf327377e8b751d9a563709efce8886ab905a0e072cac9022e96f49b",
+      "sections": [
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:objective",
+          "slotId": "objective",
+          "heading": "Objective",
+          "headingSlug": "objective"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbols",
+          "slotId": "symbols",
+          "heading": "API",
+          "headingSlug": "api"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:56b3e8358b741626",
+          "slotId": "symbol",
+          "heading": "API_REFERENCE_DTO_SCHEMA_ID",
+          "headingSlug": "api-reference-dto-schema-id",
+          "symbolId": "symbol:v1:b176c7417f5d3000"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8595c6ca47756d37",
+          "slotId": "symbol",
+          "heading": "APP_ERROR_CATEGORIES",
+          "headingSlug": "app-error-categories",
+          "symbolId": "symbol:v1:94be3278f8fd642c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:39911a70a8acbd23",
+          "slotId": "symbol",
+          "heading": "APP_PATH_KINDS",
+          "headingSlug": "app-path-kinds",
+          "symbolId": "symbol:v1:4262a55e39e16d52"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b49c446ababc0d44",
+          "slotId": "symbol",
+          "heading": "ApiReferenceDto",
+          "headingSlug": "apireferencedto",
+          "symbolId": "symbol:v1:63c233999fa56c57"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8d83982fac957eaa",
+          "slotId": "symbol",
+          "heading": "AppError",
+          "headingSlug": "apperror",
+          "symbolId": "symbol:v1:b1958be691596662"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6c37d48ba07094d5",
+          "slotId": "symbol",
+          "heading": "AppErrorAttributes",
+          "headingSlug": "apperrorattributes",
+          "symbolId": "symbol:v1:6a51f419c165649b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6dad2a63e72b47a5",
+          "slotId": "symbol",
+          "heading": "AppErrorCategory",
+          "headingSlug": "apperrorcategory",
+          "symbolId": "symbol:v1:72f1677d415a8606"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1e0a4585085e649a",
+          "slotId": "symbol",
+          "heading": "AppErrorCode",
+          "headingSlug": "apperrorcode",
+          "symbolId": "symbol:v1:2515c4efaf70c517"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a1d546a92c5067bd",
+          "slotId": "symbol",
+          "heading": "AppErrorOptions",
+          "headingSlug": "apperroroptions",
+          "symbolId": "symbol:v1:79ea283c9fbc581a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:08240c127299d8c8",
+          "slotId": "symbol",
+          "heading": "AppPathErrorCode",
+          "headingSlug": "apppatherrorcode",
+          "symbolId": "symbol:v1:bfb46c5658b6d3eb"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ae27d7efb212ac79",
+          "slotId": "symbol",
+          "heading": "AppPathKind",
+          "headingSlug": "apppathkind",
+          "symbolId": "symbol:v1:e6b29a0d37caea09"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:04e4c6a240ad04a6",
+          "slotId": "symbol",
+          "heading": "AppPathOptions",
+          "headingSlug": "apppathoptions",
+          "symbolId": "symbol:v1:d243ebee97221502"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4dcbfd94a7e12f24",
+          "slotId": "symbol",
+          "heading": "AppPathOverrides",
+          "headingSlug": "apppathoverrides",
+          "symbolId": "symbol:v1:b0e894f39eca021c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:419f60d522fe5e82",
+          "slotId": "symbol",
+          "heading": "AppPathPolicy",
+          "headingSlug": "apppathpolicy",
+          "symbolId": "symbol:v1:c9f259e65be25f71"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:50ebe4deffd25eeb",
+          "slotId": "symbol",
+          "heading": "AppPathResolution",
+          "headingSlug": "apppathresolution",
+          "symbolId": "symbol:v1:9e1546fd63c7c56e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6cbf2cf4ae761e8d",
+          "slotId": "symbol",
+          "heading": "AtomicWriteEntry",
+          "headingSlug": "atomicwriteentry",
+          "symbolId": "symbol:v1:34b73cc33d6abc11"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9bbef785d8460ec0",
+          "slotId": "symbol",
+          "heading": "AtomicWritePlan",
+          "headingSlug": "atomicwriteplan",
+          "symbolId": "symbol:v1:5ef28d4a6936e66b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a2b89018a69e3b1a",
+          "slotId": "symbol",
+          "heading": "AttributeName",
+          "headingSlug": "attributename",
+          "symbolId": "symbol:v1:9df7cc58b29ef7f9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c8e6acfbf925c942",
+          "slotId": "symbol",
+          "heading": "AttributeName",
+          "headingSlug": "attributename",
+          "symbolId": "symbol:v1:0825bae316027b9a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d0538822b4ee4965",
+          "slotId": "symbol",
+          "heading": "AttributeName",
+          "headingSlug": "attributename",
+          "symbolId": "symbol:v1:39745c488026c8d4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c84a7b0a798c7295",
+          "slotId": "symbol",
+          "heading": "AttributeName",
+          "headingSlug": "attributename",
+          "symbolId": "symbol:v1:5c35ecb1f78c9ab1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c9b30f846dd4ef33",
+          "slotId": "symbol",
+          "heading": "AttributeName",
+          "headingSlug": "attributename",
+          "symbolId": "symbol:v1:03ab95ba0309944d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:30eb1f9ca963a9b3",
+          "slotId": "symbol",
+          "heading": "AttributeName",
+          "headingSlug": "attributename",
+          "symbolId": "symbol:v1:c230c871c0e4bd4c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c6b72ad884ae01b4",
+          "slotId": "symbol",
+          "heading": "AttributeName",
+          "headingSlug": "attributename",
+          "symbolId": "symbol:v1:fd91486e6836e65e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ae261806bb1d63d3",
+          "slotId": "symbol",
+          "heading": "Attributes",
+          "headingSlug": "attributes",
+          "symbolId": "symbol:v1:3557479d80864be3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:233c19f0768303f5",
+          "slotId": "symbol",
+          "heading": "BoundedReadResult",
+          "headingSlug": "boundedreadresult",
+          "symbolId": "symbol:v1:15d6c47bfc5cd4d9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f0c9b533d4f227f7",
+          "slotId": "symbol",
+          "heading": "BuildDocumentResult",
+          "headingSlug": "builddocumentresult",
+          "symbolId": "symbol:v1:3d2dff53580bc530"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:81631b5a73acb6db",
+          "slotId": "symbol",
+          "heading": "CHECK_GATE_IDS",
+          "headingSlug": "check-gate-ids",
+          "symbolId": "symbol:v1:10fdf63fd5b2af63"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1a4087ebcd2a33b5",
+          "slotId": "symbol",
+          "heading": "CHECK_TOOL_VERSION",
+          "headingSlug": "check-tool-version",
+          "symbolId": "symbol:v1:986adbfb157ff950"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7da24a6b93de1c41",
+          "slotId": "symbol",
+          "heading": "CheckCliOptions",
+          "headingSlug": "checkclioptions",
+          "symbolId": "symbol:v1:062048ca28b22785"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d592be804736e94c",
+          "slotId": "symbol",
+          "heading": "CheckCliOverrides",
+          "headingSlug": "checkclioverrides",
+          "symbolId": "symbol:v1:c7187bdc99c10ade"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:84b5f3129732f427",
+          "slotId": "symbol",
+          "heading": "CheckData",
+          "headingSlug": "checkdata",
+          "symbolId": "symbol:v1:9c73e045acf9434e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ae2cfabe6b017cc5",
+          "slotId": "symbol",
+          "heading": "CheckEnvelope",
+          "headingSlug": "checkenvelope",
+          "symbolId": "symbol:v1:030e3589911307aa"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:72f344dd0f732bf7",
+          "slotId": "symbol",
+          "heading": "CheckGateId",
+          "headingSlug": "checkgateid",
+          "symbolId": "symbol:v1:740e62e5c726994b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:65f5fa07337ee1f8",
+          "slotId": "symbol",
+          "heading": "CheckOutcome",
+          "headingSlug": "checkoutcome",
+          "symbolId": "symbol:v1:670659e439e12af7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a8dc1fcd88555593",
+          "slotId": "symbol",
+          "heading": "CliCommandDefinition",
+          "headingSlug": "clicommanddefinition",
+          "symbolId": "symbol:v1:0967fd51fc7f94df"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9bcaca7b24859a1b",
+          "slotId": "symbol",
+          "heading": "CliCommandGroupDefinition",
+          "headingSlug": "clicommandgroupdefinition",
+          "symbolId": "symbol:v1:db1be9c731096e80"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:fe3c554041ab41e0",
+          "slotId": "symbol",
+          "heading": "CliCommandOption",
+          "headingSlug": "clicommandoption",
+          "symbolId": "symbol:v1:9c2c4a360eb2a681"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:90aa6e3d5901e292",
+          "slotId": "symbol",
+          "heading": "CliErrorDetail",
+          "headingSlug": "clierrordetail",
+          "symbolId": "symbol:v1:22788324223fd363"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9b2bb0371b639fa9",
+          "slotId": "symbol",
+          "heading": "CliExecutionContext",
+          "headingSlug": "cliexecutioncontext",
+          "symbolId": "symbol:v1:78e39344876e4a60"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9716658cfa0950c4",
+          "slotId": "symbol",
+          "heading": "CliGlobalOptions",
+          "headingSlug": "cliglobaloptions",
+          "symbolId": "symbol:v1:f9ac4bbaed916f29"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:5b9090f12dda5c03",
+          "slotId": "symbol",
+          "heading": "CliOutput",
+          "headingSlug": "clioutput",
+          "symbolId": "symbol:v1:17b154e30fe3df92"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:677ee3339c942c4c",
+          "slotId": "symbol",
+          "heading": "CliOutputOptions",
+          "headingSlug": "clioutputoptions",
+          "symbolId": "symbol:v1:adb66b9cee4366fd"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:48675e8d2be3c430",
+          "slotId": "symbol",
+          "heading": "CliProgram",
+          "headingSlug": "cliprogram",
+          "symbolId": "symbol:v1:7621a7e1047a1082"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7739ddb5f6a59052",
+          "slotId": "symbol",
+          "heading": "CliProgramOptions",
+          "headingSlug": "cliprogramoptions",
+          "symbolId": "symbol:v1:1a44e8d5a49ca2d0"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a7e7bd0435066560",
+          "slotId": "symbol",
+          "heading": "CliResult",
+          "headingSlug": "cliresult",
+          "symbolId": "symbol:v1:2a32e7f37c9f54d5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d7bbc41b05691cfa",
+          "slotId": "symbol",
+          "heading": "CommandEnvelope",
+          "headingSlug": "commandenvelope",
+          "symbolId": "symbol:v1:d33f7ed3f2a48c3c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a5f9a708a86d3936",
+          "slotId": "symbol",
+          "heading": "CompileStrictOptions",
+          "headingSlug": "compilestrictoptions",
+          "symbolId": "symbol:v1:6f1560056c654b41"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ed18aedcf35f078c",
+          "slotId": "symbol",
+          "heading": "ComputeSnapshotInput",
+          "headingSlug": "computesnapshotinput",
+          "symbolId": "symbol:v1:cbda66219a6221b6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1901225ac9bc5ff4",
+          "slotId": "symbol",
+          "heading": "ContractParseResult",
+          "headingSlug": "contractparseresult",
+          "symbolId": "symbol:v1:75dc8d2467631480"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b5c999988f458c25",
+          "slotId": "symbol",
+          "heading": "Counter",
+          "headingSlug": "counter",
+          "symbolId": "symbol:v1:89aaac327ca48ff9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7d581bc2b69a512a",
+          "slotId": "symbol",
+          "heading": "DATASET_APP_NAME",
+          "headingSlug": "dataset-app-name",
+          "symbolId": "symbol:v1:00cf2a303444422a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d98b67cc3fde1537",
+          "slotId": "symbol",
+          "heading": "DATASET_DB_FILENAME",
+          "headingSlug": "dataset-db-filename",
+          "symbolId": "symbol:v1:fc886c45401afe01"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:01878b9bc4db73fa",
+          "slotId": "symbol",
+          "heading": "DATASET_MIGRATIONS",
+          "headingSlug": "dataset-migrations",
+          "symbolId": "symbol:v1:8d27b57e55077654"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e7f4f66182e61879",
+          "slotId": "symbol",
+          "heading": "DATASET_SCHEMA_ID",
+          "headingSlug": "dataset-schema-id",
+          "symbolId": "symbol:v1:217df90018f179b7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d60a4594b820e117",
+          "slotId": "symbol",
+          "heading": "DATASET_SCHEMA_VERSION",
+          "headingSlug": "dataset-schema-version",
+          "symbolId": "symbol:v1:3a47572ea0ba8254"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:12348d16314e7ecc",
+          "slotId": "symbol",
+          "heading": "DATASET_SUBDIR",
+          "headingSlug": "dataset-subdir",
+          "symbolId": "symbol:v1:d0c3e21d375edc49"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c29274493c2cb47e",
+          "slotId": "symbol",
+          "heading": "DATASET_TABLES",
+          "headingSlug": "dataset-tables",
+          "symbolId": "symbol:v1:021920e4f3237360"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:fafb5e7410801874",
+          "slotId": "symbol",
+          "heading": "DEFAULT_HASH_HEX_LENGTH",
+          "headingSlug": "default-hash-hex-length",
+          "symbolId": "symbol:v1:002261e97bd8ee19"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c56e2143825460e2",
+          "slotId": "symbol",
+          "heading": "DEFAULT_IGNORE_PATTERNS",
+          "headingSlug": "default-ignore-patterns",
+          "symbolId": "symbol:v1:b027ed07f0bb5f63"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:dc04e7fc42b5be7c",
+          "slotId": "symbol",
+          "heading": "DEFAULT_SEARCH_LIMIT",
+          "headingSlug": "default-search-limit",
+          "symbolId": "symbol:v1:589087a1625fb7e5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b26a920580b0604f",
+          "slotId": "symbol",
+          "heading": "DEFAULT_TEMPLATE_PACK",
+          "headingSlug": "default-template-pack",
+          "symbolId": "symbol:v1:72cc01d3371dcdb0"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2538583b4fc3038f",
+          "slotId": "symbol",
+          "heading": "DEFAULT_TEMPLATE_PACKS_DIR",
+          "headingSlug": "default-template-packs-dir",
+          "symbolId": "symbol:v1:1a3786c8c8ed22bf"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2c9a3e24df0626d7",
+          "slotId": "symbol",
+          "heading": "DIAGNOSTIC_CODE_REGISTRY",
+          "headingSlug": "diagnostic-code-registry",
+          "symbolId": "symbol:v1:565f77d577c7e1c5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:cc2723e953dee558",
+          "slotId": "symbol",
+          "heading": "Dataset",
+          "headingSlug": "dataset",
+          "symbolId": "symbol:v1:f39ff3a6220d7e15"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3b2d68c0bbf49ffc",
+          "slotId": "symbol",
+          "heading": "DatasetContainmentError",
+          "headingSlug": "datasetcontainmenterror",
+          "symbolId": "symbol:v1:3b472b221b2e8c13"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:87d24b8871cc5557",
+          "slotId": "symbol",
+          "heading": "DatasetPaths",
+          "headingSlug": "datasetpaths",
+          "symbolId": "symbol:v1:835c2387cfeeaf99"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:45147a91375a0464",
+          "slotId": "symbol",
+          "heading": "DatasetTable",
+          "headingSlug": "datasettable",
+          "symbolId": "symbol:v1:40a89f917833e851"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f364a777c5d684ac",
+          "slotId": "symbol",
+          "heading": "DeclarationFact",
+          "headingSlug": "declarationfact",
+          "symbolId": "symbol:v1:eb8f3e4ccca40a4b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8509a05f58f66559",
+          "slotId": "symbol",
+          "heading": "DeclarationKind",
+          "headingSlug": "declarationkind",
+          "symbolId": "symbol:v1:fade0cefef0cfee7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7ceb2ba5092f1b38",
+          "slotId": "symbol",
+          "heading": "DeclaredTypeResolution",
+          "headingSlug": "declaredtyperesolution",
+          "symbolId": "symbol:v1:31bfddf9e469b2be"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:304d07d6e84f733c",
+          "slotId": "symbol",
+          "heading": "Diagnostic",
+          "headingSlug": "diagnostic",
+          "symbolId": "symbol:v1:91d97ac6e2d5a630"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:30cc467674981235",
+          "slotId": "symbol",
+          "heading": "DiagnosticCode",
+          "headingSlug": "diagnosticcode",
+          "symbolId": "symbol:v1:706fadde26b30087"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:bc225f3b4bf2e898",
+          "slotId": "symbol",
+          "heading": "DiagnosticCodes",
+          "headingSlug": "diagnosticcodes",
+          "symbolId": "symbol:v1:bcf7c9f21bffeb9b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4da58dc7213380dc",
+          "slotId": "symbol",
+          "heading": "DiagnosticInput",
+          "headingSlug": "diagnosticinput",
+          "symbolId": "symbol:v1:d26fa521fce9c5a4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9a924482ae766a89",
+          "slotId": "symbol",
+          "heading": "DiagnosticRow",
+          "headingSlug": "diagnosticrow",
+          "symbolId": "symbol:v1:bea732813056752d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:894776fd6eedc152",
+          "slotId": "symbol",
+          "heading": "DiagnosticRowInput",
+          "headingSlug": "diagnosticrowinput",
+          "symbolId": "symbol:v1:a6de34fe56e39b9c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:aa101bd710e70814",
+          "slotId": "symbol",
+          "heading": "DiagnosticSeverity",
+          "headingSlug": "diagnosticseverity",
+          "symbolId": "symbol:v1:b681c42537301982"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4811709c5017398f",
+          "slotId": "symbol",
+          "heading": "DiscoverRepositoryOptions",
+          "headingSlug": "discoverrepositoryoptions",
+          "symbolId": "symbol:v1:0cbf3f12f2bb5748"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a9ef4fb535ac6391",
+          "slotId": "symbol",
+          "heading": "DiscoverWorkspaceOptions",
+          "headingSlug": "discoverworkspaceoptions",
+          "symbolId": "symbol:v1:71b86ef9138f5028"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:db8a0abcc12e5318",
+          "slotId": "symbol",
+          "heading": "ENTITY_IDS",
+          "headingSlug": "entity-ids",
+          "symbolId": "symbol:v1:a1e3a0be52d444b9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:618076ff72b7b7af",
+          "slotId": "symbol",
+          "heading": "ENTITY_IDS",
+          "headingSlug": "entity-ids",
+          "symbolId": "symbol:v1:b0e2e720d3a4acfa"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:46f7f7e2471814ac",
+          "slotId": "symbol",
+          "heading": "ENTITY_IDS",
+          "headingSlug": "entity-ids",
+          "symbolId": "symbol:v1:65c08e88f344dbe7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:267242c2c97c3e88",
+          "slotId": "symbol",
+          "heading": "ENTITY_IDS",
+          "headingSlug": "entity-ids",
+          "symbolId": "symbol:v1:06614ab296766d6a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b75687f377b096e1",
+          "slotId": "symbol",
+          "heading": "ENTITY_IDS",
+          "headingSlug": "entity-ids",
+          "symbolId": "symbol:v1:605e00ea384088f4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b88e5d597dd0bab5",
+          "slotId": "symbol",
+          "heading": "ENTITY_IDS",
+          "headingSlug": "entity-ids",
+          "symbolId": "symbol:v1:83c578ecb769ed8f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f6280637a3350a32",
+          "slotId": "symbol",
+          "heading": "ENTITY_IDS",
+          "headingSlug": "entity-ids",
+          "symbolId": "symbol:v1:a5c2fc1c7489796a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:93468a4c316695dd",
+          "slotId": "symbol",
+          "heading": "ENTITY_IDS",
+          "headingSlug": "entity-ids",
+          "symbolId": "symbol:v1:842a2e160722b624"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8009504ee9add7cd",
+          "slotId": "symbol",
+          "heading": "ERROR_CODES",
+          "headingSlug": "error-codes",
+          "symbolId": "symbol:v1:4cf3c8f057c2822d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e39837fcc6dc855b",
+          "slotId": "symbol",
+          "heading": "ERROR_CODES",
+          "headingSlug": "error-codes",
+          "symbolId": "symbol:v1:af8996462568dce8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f4d8c5f98ba0d8c4",
+          "slotId": "symbol",
+          "heading": "ERROR_CODES",
+          "headingSlug": "error-codes",
+          "symbolId": "symbol:v1:a87e6b7cb16b4843"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:547a16fd89419cd9",
+          "slotId": "symbol",
+          "heading": "ERROR_CODES",
+          "headingSlug": "error-codes",
+          "symbolId": "symbol:v1:6be773eaa2652b89"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:944ae1436272dfce",
+          "slotId": "symbol",
+          "heading": "ERROR_CODES",
+          "headingSlug": "error-codes",
+          "symbolId": "symbol:v1:0de07216bddf19f2"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9139da3c5ec79978",
+          "slotId": "symbol",
+          "heading": "ERROR_CODES",
+          "headingSlug": "error-codes",
+          "symbolId": "symbol:v1:0b9ae9227e4a1376"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6e0e2a4a5a8805c7",
+          "slotId": "symbol",
+          "heading": "ERROR_CODES",
+          "headingSlug": "error-codes",
+          "symbolId": "symbol:v1:a66a6967709f535e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b0d68df2c8a44cee",
+          "slotId": "symbol",
+          "heading": "ERROR_CODES",
+          "headingSlug": "error-codes",
+          "symbolId": "symbol:v1:6a5792d0278e24eb"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:94d13696f2e29310",
+          "slotId": "symbol",
+          "heading": "EnsureAppPathOptions",
+          "headingSlug": "ensureapppathoptions",
+          "symbolId": "symbol:v1:1ef48a8627724a3d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:36aa4c18feee7667",
+          "slotId": "symbol",
+          "heading": "EntityId",
+          "headingSlug": "entityid",
+          "symbolId": "symbol:v1:834ae53df239ed6d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3fe37a05b2e5ccd3",
+          "slotId": "symbol",
+          "heading": "EntityId",
+          "headingSlug": "entityid",
+          "symbolId": "symbol:v1:a337ead2a9af33c5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2afb84848e7209f2",
+          "slotId": "symbol",
+          "heading": "EntityId",
+          "headingSlug": "entityid",
+          "symbolId": "symbol:v1:956782078b4fc6a3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:47852be810f2353c",
+          "slotId": "symbol",
+          "heading": "EntityId",
+          "headingSlug": "entityid",
+          "symbolId": "symbol:v1:eec6e7d4437a239c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f32d12dc17724ec6",
+          "slotId": "symbol",
+          "heading": "EntityId",
+          "headingSlug": "entityid",
+          "symbolId": "symbol:v1:0fd93e490447d2c8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:769e1c5bee38428c",
+          "slotId": "symbol",
+          "heading": "EntityId",
+          "headingSlug": "entityid",
+          "symbolId": "symbol:v1:3cd3c003db0bbc7a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8247e9d4457e8905",
+          "slotId": "symbol",
+          "heading": "EntityId",
+          "headingSlug": "entityid",
+          "symbolId": "symbol:v1:40627d65a087c32f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:48ca96f8d3cd6c6e",
+          "slotId": "symbol",
+          "heading": "EntityId",
+          "headingSlug": "entityid",
+          "symbolId": "symbol:v1:f9227262b9b3ee04"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:54ad39c6f0f84be1",
+          "slotId": "symbol",
+          "heading": "EnvelopeMeta",
+          "headingSlug": "envelopemeta",
+          "symbolId": "symbol:v1:2cd448f5c647fd9c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6e8c4bd5111635bc",
+          "slotId": "symbol",
+          "heading": "ErrorCode",
+          "headingSlug": "errorcode",
+          "symbolId": "symbol:v1:12806eee9db867af"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6de1fb19a6ac4abf",
+          "slotId": "symbol",
+          "heading": "ErrorCode",
+          "headingSlug": "errorcode",
+          "symbolId": "symbol:v1:b6fd43ae2e6f941f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4896e7e767de98bb",
+          "slotId": "symbol",
+          "heading": "ErrorCode",
+          "headingSlug": "errorcode",
+          "symbolId": "symbol:v1:1f150d8b909f3763"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4a3146e0bd4bf64b",
+          "slotId": "symbol",
+          "heading": "ErrorCode",
+          "headingSlug": "errorcode",
+          "symbolId": "symbol:v1:0dbb950e446f00b3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7b46638e6513e172",
+          "slotId": "symbol",
+          "heading": "ErrorCode",
+          "headingSlug": "errorcode",
+          "symbolId": "symbol:v1:bf418eb4089dada8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8fbd22e57fd9502d",
+          "slotId": "symbol",
+          "heading": "ErrorCode",
+          "headingSlug": "errorcode",
+          "symbolId": "symbol:v1:d465c796d1353cc6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:0affe5038b0acf13",
+          "slotId": "symbol",
+          "heading": "ErrorCode",
+          "headingSlug": "errorcode",
+          "symbolId": "symbol:v1:3240f32e9b78c425"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1ade9874a9cc8076",
+          "slotId": "symbol",
+          "heading": "ErrorCode",
+          "headingSlug": "errorcode",
+          "symbolId": "symbol:v1:0b4ef4a002770466"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:896743c077d93ee8",
+          "slotId": "symbol",
+          "heading": "ErrorCodeMeta",
+          "headingSlug": "errorcodemeta",
+          "symbolId": "symbol:v1:517e8f7e7404a8a9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3b84b0604a67d742",
+          "slotId": "symbol",
+          "heading": "ErrorRegistry",
+          "headingSlug": "errorregistry",
+          "symbolId": "symbol:v1:2710623203bca613"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:fefed9c7d74ef2d4",
+          "slotId": "symbol",
+          "heading": "EvidenceRow",
+          "headingSlug": "evidencerow",
+          "symbolId": "symbol:v1:c372bf3f57e711aa"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:05f1ebe561f65dd1",
+          "slotId": "symbol",
+          "heading": "ExecuteCheckParams",
+          "headingSlug": "executecheckparams",
+          "symbolId": "symbol:v1:eeacb4f0da273e8d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:08603fe14516ae4a",
+          "slotId": "symbol",
+          "heading": "ExecuteGenerateParams",
+          "headingSlug": "executegenerateparams",
+          "symbolId": "symbol:v1:929dab70e712161e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:76cb4e728efef033",
+          "slotId": "symbol",
+          "heading": "ExecuteLoadParams",
+          "headingSlug": "executeloadparams",
+          "symbolId": "symbol:v1:ca34c0d78380ef77"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:dc746037b40f7825",
+          "slotId": "symbol",
+          "heading": "ExecuteSearchParams",
+          "headingSlug": "executesearchparams",
+          "symbolId": "symbol:v1:31bd3a225c3df15f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ca881471ac43c9dd",
+          "slotId": "symbol",
+          "heading": "ExtractPackageFactsInput",
+          "headingSlug": "extractpackagefactsinput",
+          "symbolId": "symbol:v1:1bf8a14427f85f49"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d888a5c412b771dd",
+          "slotId": "symbol",
+          "heading": "ExtractorSourceFile",
+          "headingSlug": "extractorsourcefile",
+          "symbolId": "symbol:v1:73ef74c598405e9a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2df31198514ab2a5",
+          "slotId": "symbol",
+          "heading": "FIXTURE_NAMES",
+          "headingSlug": "fixture-names",
+          "symbolId": "symbol:v1:6c300c8ec00b4948"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:25de31d34bbf56bc",
+          "slotId": "symbol",
+          "heading": "FORBIDDEN_TABLES",
+          "headingSlug": "forbidden-tables",
+          "symbolId": "symbol:v1:0d1ae368c572d194"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:62c6d26ab38f6b26",
+          "slotId": "symbol",
+          "heading": "FieldViolation",
+          "headingSlug": "fieldviolation",
+          "symbolId": "symbol:v1:5d6918311b22322c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:07938cbad137b09a",
+          "slotId": "symbol",
+          "heading": "FindTsconfigOptions",
+          "headingSlug": "findtsconfigoptions",
+          "symbolId": "symbol:v1:2fe6c7cfe39b793f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a69f81f6d2bcb882",
+          "slotId": "symbol",
+          "heading": "FixtureDefinition",
+          "headingSlug": "fixturedefinition",
+          "symbolId": "symbol:v1:cc05c163d35c7109"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9cc0de295922f5a8",
+          "slotId": "symbol",
+          "heading": "FixtureKind",
+          "headingSlug": "fixturekind",
+          "symbolId": "symbol:v1:4569b5061b74f40d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ecb83cf39168e2cb",
+          "slotId": "symbol",
+          "heading": "FixtureName",
+          "headingSlug": "fixturename",
+          "symbolId": "symbol:v1:0f3ccf17e08d2691"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1210d27cf90bb5b6",
+          "slotId": "symbol",
+          "heading": "GENERATE_TEMPLATES",
+          "headingSlug": "generate-templates",
+          "symbolId": "symbol:v1:9d47a976757c3db3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:13e22d92ee805391",
+          "slotId": "symbol",
+          "heading": "GENERATE_TOOL_VERSION",
+          "headingSlug": "generate-tool-version",
+          "symbolId": "symbol:v1:ad10ff24c1385938"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3a661f5d99651160",
+          "slotId": "symbol",
+          "heading": "GenerateCliOptions",
+          "headingSlug": "generateclioptions",
+          "symbolId": "symbol:v1:d6a4f5864d30e938"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9bd3324e9cbe0f8c",
+          "slotId": "symbol",
+          "heading": "GenerateCliOverrides",
+          "headingSlug": "generateclioverrides",
+          "symbolId": "symbol:v1:22cbfea131d440ee"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:630726feb1360217",
+          "slotId": "symbol",
+          "heading": "GenerateData",
+          "headingSlug": "generatedata",
+          "symbolId": "symbol:v1:4ed7df6f5a23f688"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2a52f70f0ce9a7a8",
+          "slotId": "symbol",
+          "heading": "GenerateEnvelope",
+          "headingSlug": "generateenvelope",
+          "symbolId": "symbol:v1:9c452ef987c0f225"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1068fc9ed5e46932",
+          "slotId": "symbol",
+          "heading": "GenerateOutcome",
+          "headingSlug": "generateoutcome",
+          "symbolId": "symbol:v1:8a991a716a499cdf"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:699c5bf18dfb08b3",
+          "slotId": "symbol",
+          "heading": "GenerateRefusedError",
+          "headingSlug": "generaterefusederror",
+          "symbolId": "symbol:v1:a870ae5cb76c33dd"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a8fd8c5d796044e3",
+          "slotId": "symbol",
+          "heading": "GenerateTemplate",
+          "headingSlug": "generatetemplate",
+          "symbolId": "symbol:v1:8e8cccf00cc2d5c2"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:162647170a512d04",
+          "slotId": "symbol",
+          "heading": "GeneratedDocFrontmatter",
+          "headingSlug": "generateddocfrontmatter",
+          "symbolId": "symbol:v1:0dd040ffccc152fa"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e979ea8c05dd9a99",
+          "slotId": "symbol",
+          "heading": "GeneratedDocRecord",
+          "headingSlug": "generateddocrecord",
+          "symbolId": "symbol:v1:02e347fde2f5d7ed"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:bf919cd746a591f6",
+          "slotId": "symbol",
+          "heading": "GeneratedDocRow",
+          "headingSlug": "generateddocrow",
+          "symbolId": "symbol:v1:64cd6568598cb60c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:184a801c0bd49cc8",
+          "slotId": "symbol",
+          "heading": "GitSummary",
+          "headingSlug": "gitsummary",
+          "symbolId": "symbol:v1:973c509878b6ea8a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:11c2b9de30365c0b",
+          "slotId": "symbol",
+          "heading": "GitSummaryOptions",
+          "headingSlug": "gitsummaryoptions",
+          "symbolId": "symbol:v1:4227e410d0284c11"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:45a8193190f0d5b7",
+          "slotId": "symbol",
+          "heading": "HashedIdType",
+          "headingSlug": "hashedidtype",
+          "symbolId": "symbol:v1:5488cd7f225e59d9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c6e33d03777a60f8",
+          "slotId": "symbol",
+          "heading": "Histogram",
+          "headingSlug": "histogram",
+          "symbolId": "symbol:v1:57ff67277f6585fc"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:52a3e6fc29df1f5a",
+          "slotId": "symbol",
+          "heading": "ID_VERSION",
+          "headingSlug": "id-version",
+          "symbolId": "symbol:v1:70c6b420465f5522"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1ecaf8bff175f702",
+          "slotId": "symbol",
+          "heading": "IdCollisionEntry",
+          "headingSlug": "idcollisionentry",
+          "symbolId": "symbol:v1:bb0f6c08439ecc60"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:15a698c10bcec291",
+          "slotId": "symbol",
+          "heading": "IdCollisionResolution",
+          "headingSlug": "idcollisionresolution",
+          "symbolId": "symbol:v1:67332360ca6d5bee"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4dde8b91a62ad30c",
+          "slotId": "symbol",
+          "heading": "IgnoreChecker",
+          "headingSlug": "ignorechecker",
+          "symbolId": "symbol:v1:feb55d22dd148a0b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:aab6943daf2261b1",
+          "slotId": "symbol",
+          "heading": "IncludedFile",
+          "headingSlug": "includedfile",
+          "symbolId": "symbol:v1:81e1a9177f76916f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1264f9794848188e",
+          "slotId": "symbol",
+          "heading": "KIND_ORDER",
+          "headingSlug": "kind-order",
+          "symbolId": "symbol:v1:5d48ec32ceba42df"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c86b3b92b38d3877",
+          "slotId": "symbol",
+          "heading": "LOAD_TOOL_VERSION",
+          "headingSlug": "load-tool-version",
+          "symbolId": "symbol:v1:611dc1e480fd8f1d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a1db05ba9eca587d",
+          "slotId": "symbol",
+          "heading": "LoadCliOptions",
+          "headingSlug": "loadclioptions",
+          "symbolId": "symbol:v1:e88e515754235c48"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4f299c605443bc78",
+          "slotId": "symbol",
+          "heading": "LoadCliOverrides",
+          "headingSlug": "loadclioverrides",
+          "symbolId": "symbol:v1:66c57c3e50149e54"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:cfe39e561c452210",
+          "slotId": "symbol",
+          "heading": "LoadData",
+          "headingSlug": "loaddata",
+          "symbolId": "symbol:v1:c1c61a2e91828024"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b2c93ee120d38118",
+          "slotId": "symbol",
+          "heading": "LoadEnvelope",
+          "headingSlug": "loadenvelope",
+          "symbolId": "symbol:v1:795021670364d89e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:99d52740eda6a1cc",
+          "slotId": "symbol",
+          "heading": "LoadOutcome",
+          "headingSlug": "loadoutcome",
+          "symbolId": "symbol:v1:65b52b113aceee17"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:87fed128d0d97b29",
+          "slotId": "symbol",
+          "heading": "LoadPhase",
+          "headingSlug": "loadphase",
+          "symbolId": "symbol:v1:ba229a987ab89bda"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:5c499e175ca75b50",
+          "slotId": "symbol",
+          "heading": "LoadRunRow",
+          "headingSlug": "loadrunrow",
+          "symbolId": "symbol:v1:291d85c051af6c00"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b3ad90d33fee5860",
+          "slotId": "symbol",
+          "heading": "LoadRunRowInput",
+          "headingSlug": "loadrunrowinput",
+          "symbolId": "symbol:v1:9ccbf9201390b13b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d9821e9d98464831",
+          "slotId": "symbol",
+          "heading": "LoadTimingEntry",
+          "headingSlug": "loadtimingentry",
+          "symbolId": "symbol:v1:93bf470533981821"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:bda802117e30c172",
+          "slotId": "symbol",
+          "heading": "LoadedPack",
+          "headingSlug": "loadedpack",
+          "symbolId": "symbol:v1:078f37ceeb04f44b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:adc5a6facd91df98",
+          "slotId": "symbol",
+          "heading": "MAX_ALLOWED_ENV_KEYS",
+          "headingSlug": "max-allowed-env-keys",
+          "symbolId": "symbol:v1:3a46e82a17aa34ef"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6494f7fed8af620c",
+          "slotId": "symbol",
+          "heading": "MAX_ALLOWED_EXECUTABLES",
+          "headingSlug": "max-allowed-executables",
+          "symbolId": "symbol:v1:045f750556a03370"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:49e449d99812ed0c",
+          "slotId": "symbol",
+          "heading": "MAX_EVIDENCE_LENGTH",
+          "headingSlug": "max-evidence-length",
+          "symbolId": "symbol:v1:4c50d1ecbd4e7ed6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1a0fee08127ca0eb",
+          "slotId": "symbol",
+          "heading": "MAX_EXTENSION_ENTRIES",
+          "headingSlug": "max-extension-entries",
+          "symbolId": "symbol:v1:47f61d8863053398"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ca7e4dc3cdf2bbf1",
+          "slotId": "symbol",
+          "heading": "MAX_FILE_COUNT",
+          "headingSlug": "max-file-count",
+          "symbolId": "symbol:v1:fd9e9ce0a9439210"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1dd0fd21ab0a41f8",
+          "slotId": "symbol",
+          "heading": "MAX_FILE_SIZE_BYTES",
+          "headingSlug": "max-file-size-bytes",
+          "symbolId": "symbol:v1:69cca9b76da6324d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:784cb1cd9c4060ed",
+          "slotId": "symbol",
+          "heading": "MAX_IGNORE_PATTERNS",
+          "headingSlug": "max-ignore-patterns",
+          "symbolId": "symbol:v1:1a4e0a9cfd05c73b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3cf22a2ea8536575",
+          "slotId": "symbol",
+          "heading": "MAX_OUTPUT_BYTES",
+          "headingSlug": "max-output-bytes",
+          "symbolId": "symbol:v1:2b460bb09f1e2b9e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:577bbbc82a918b05",
+          "slotId": "symbol",
+          "heading": "MAX_POLICY_NAME_LENGTH",
+          "headingSlug": "max-policy-name-length",
+          "symbolId": "symbol:v1:c64a0eec7245a341"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7cf9783eaf039bc6",
+          "slotId": "symbol",
+          "heading": "MAX_READ_BYTES",
+          "headingSlug": "max-read-bytes",
+          "symbolId": "symbol:v1:b88bf5832379099a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:cf4e785e50196470",
+          "slotId": "symbol",
+          "heading": "MAX_SEARCH_LIMIT",
+          "headingSlug": "max-search-limit",
+          "symbolId": "symbol:v1:3453d8476c1d23db"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:96e8857b848b6c98",
+          "slotId": "symbol",
+          "heading": "MAX_SIGNATURE_LENGTH",
+          "headingSlug": "max-signature-length",
+          "symbolId": "symbol:v1:bae769ef23237ea6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9bae37a53fb4a59b",
+          "slotId": "symbol",
+          "heading": "MAX_TIMEOUT_MS",
+          "headingSlug": "max-timeout-ms",
+          "symbolId": "symbol:v1:7a493d5a3eabaffd"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:fcf114376b060440",
+          "slotId": "symbol",
+          "heading": "ManagedDatabase",
+          "headingSlug": "manageddatabase",
+          "symbolId": "symbol:v1:83cedeea8a5ec906"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:93c7c5825c307f9e",
+          "slotId": "symbol",
+          "heading": "ManagedHealthResult",
+          "headingSlug": "managedhealthresult",
+          "symbolId": "symbol:v1:b44664e32de0135e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f6b866a166a0a298",
+          "slotId": "symbol",
+          "heading": "ManagedMigrationResult",
+          "headingSlug": "managedmigrationresult",
+          "symbolId": "symbol:v1:46a6c4cd85c1ee9c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:46b4b07876f27d30",
+          "slotId": "symbol",
+          "heading": "ManagedOpenOptions",
+          "headingSlug": "managedopenoptions",
+          "symbolId": "symbol:v1:ed3f1bbecdf4dda2"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:262735e72cb7e6a3",
+          "slotId": "symbol",
+          "heading": "Meter",
+          "headingSlug": "meter",
+          "symbolId": "symbol:v1:f2ad9354c1117563"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:aa6bd449a65ebeba",
+          "slotId": "symbol",
+          "heading": "MetricName",
+          "headingSlug": "metricname",
+          "symbolId": "symbol:v1:78a8fb2753b892d6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2ec059023e2a5837",
+          "slotId": "symbol",
+          "heading": "NORMALIZED_FIXTURE_TIMESTAMP",
+          "headingSlug": "normalized-fixture-timestamp",
+          "symbolId": "symbol:v1:7f7168a836db03f5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3376b0c41f2b92a8",
+          "slotId": "symbol",
+          "heading": "NOW_TRAVERSAL_POLICY",
+          "headingSlug": "now-traversal-policy",
+          "symbolId": "symbol:v1:59a5c3fc1c08d518"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ca979f7c6da34ed2",
+          "slotId": "symbol",
+          "heading": "NormalizedQuery",
+          "headingSlug": "normalizedquery",
+          "symbolId": "symbol:v1:8c9f4f26f20ea877"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:fe6ceb9206a10e1b",
+          "slotId": "symbol",
+          "heading": "NormalizedTimestamp",
+          "headingSlug": "normalizedtimestamp",
+          "symbolId": "symbol:v1:515cce9bac4dd353"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:55e8974a47b7895b",
+          "slotId": "symbol",
+          "heading": "OpenDatasetOptions",
+          "headingSlug": "opendatasetoptions",
+          "symbolId": "symbol:v1:b4e1ca6b16117d4d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a002899dae0cc724",
+          "slotId": "symbol",
+          "heading": "OutboundUrlPolicy",
+          "headingSlug": "outboundurlpolicy",
+          "symbolId": "symbol:v1:5e8d6222ad251e04"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a974d4a459d56c23",
+          "slotId": "symbol",
+          "heading": "OutboundUrlResult",
+          "headingSlug": "outboundurlresult",
+          "symbolId": "symbol:v1:09a1321e147f6bfc"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d2e7b75f9b904c87",
+          "slotId": "symbol",
+          "heading": "PACKAGE_OVERVIEW_DTO_SCHEMA_ID",
+          "headingSlug": "package-overview-dto-schema-id",
+          "symbolId": "symbol:v1:bfc3d8a21e985709"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2d2d3bbe2e1379cb",
+          "slotId": "symbol",
+          "heading": "PackageDependencyRow",
+          "headingSlug": "packagedependencyrow",
+          "symbolId": "symbol:v1:24c5281ff95bcd78"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e2b5bcb45eeaa854",
+          "slotId": "symbol",
+          "heading": "PackageDependencyRowInput",
+          "headingSlug": "packagedependencyrowinput",
+          "symbolId": "symbol:v1:20c14d80e27dfa06"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:49243e2d2187373f",
+          "slotId": "symbol",
+          "heading": "PackageExportRow",
+          "headingSlug": "packageexportrow",
+          "symbolId": "symbol:v1:3e30d4de812eb9e1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9882385b635e7c9e",
+          "slotId": "symbol",
+          "heading": "PackageExportRowInput",
+          "headingSlug": "packageexportrowinput",
+          "symbolId": "symbol:v1:4f52a471f5e7689b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:74db38e00532e30c",
+          "slotId": "symbol",
+          "heading": "PackageFacts",
+          "headingSlug": "packagefacts",
+          "symbolId": "symbol:v1:0b309bf4b8533542"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:0d6b32f3ea8197d4",
+          "slotId": "symbol",
+          "heading": "PackageInventory",
+          "headingSlug": "packageinventory",
+          "symbolId": "symbol:v1:d3ff5c13ef167d82"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:0cec20c6cbdb0d33",
+          "slotId": "symbol",
+          "heading": "PackageManagerInfo",
+          "headingSlug": "packagemanagerinfo",
+          "symbolId": "symbol:v1:cee296742db6a48d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6c23d93985527d24",
+          "slotId": "symbol",
+          "heading": "PackageManagerName",
+          "headingSlug": "packagemanagername",
+          "symbolId": "symbol:v1:35580a6b9e489a5d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a39b43e686018c3c",
+          "slotId": "symbol",
+          "heading": "PackageOverviewDto",
+          "headingSlug": "packageoverviewdto",
+          "symbolId": "symbol:v1:9e177a4a2514fdb2"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ba337c1e70199a9e",
+          "slotId": "symbol",
+          "heading": "PackageRow",
+          "headingSlug": "packagerow",
+          "symbolId": "symbol:v1:e9a1e2c50aedf333"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9b60598c71f47619",
+          "slotId": "symbol",
+          "heading": "PackageRowInput",
+          "headingSlug": "packagerowinput",
+          "symbolId": "symbol:v1:0af25300ef10d811"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8f870ac1eee98b84",
+          "slotId": "symbol",
+          "heading": "ProblemDetails",
+          "headingSlug": "problemdetails",
+          "symbolId": "symbol:v1:c35f7eeb04b9efde"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b763152ff133ed08",
+          "slotId": "symbol",
+          "heading": "ProcessCommand",
+          "headingSlug": "processcommand",
+          "symbolId": "symbol:v1:fb57e25a3eef85f9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9c5a4ddc0b1a3d95",
+          "slotId": "symbol",
+          "heading": "ProcessCommandSnapshot",
+          "headingSlug": "processcommandsnapshot",
+          "symbolId": "symbol:v1:53265fba31b7ca86"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c4d6b4937ba97821",
+          "slotId": "symbol",
+          "heading": "ProcessOutputLimit",
+          "headingSlug": "processoutputlimit",
+          "symbolId": "symbol:v1:1e2db9eb5123947c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e377162d80f6250f",
+          "slotId": "symbol",
+          "heading": "ProcessResult",
+          "headingSlug": "processresult",
+          "symbolId": "symbol:v1:2e0db8b00eadc144"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a85747bfb2d97521",
+          "slotId": "symbol",
+          "heading": "ProcessRunner",
+          "headingSlug": "processrunner",
+          "symbolId": "symbol:v1:50e7e9f68f5e6269"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:94486883632fd808",
+          "slotId": "symbol",
+          "heading": "ProcessRunnerPolicy",
+          "headingSlug": "processrunnerpolicy",
+          "symbolId": "symbol:v1:bebf0f6bb35cd156"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b4998e346aa39434",
+          "slotId": "symbol",
+          "heading": "ProcessRunnerPolicySnapshot",
+          "headingSlug": "processrunnerpolicysnapshot",
+          "symbolId": "symbol:v1:bb738dc2000a650e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4c4a8868854e9dcd",
+          "slotId": "symbol",
+          "heading": "ProjectRow",
+          "headingSlug": "projectrow",
+          "symbolId": "symbol:v1:f95e26ec00f7ddae"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3ecd8021dc945294",
+          "slotId": "symbol",
+          "heading": "ProjectionDto",
+          "headingSlug": "projectiondto",
+          "symbolId": "symbol:v1:4f0152372a2408d4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2800296abae78801",
+          "slotId": "symbol",
+          "heading": "ProjectionOptions",
+          "headingSlug": "projectionoptions",
+          "symbolId": "symbol:v1:a8f8ca50b9fdc523"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2fe806bc25881d1d",
+          "slotId": "symbol",
+          "heading": "ProjectionOutcome",
+          "headingSlug": "projectionoutcome",
+          "symbolId": "symbol:v1:8f29d688981fda67"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a924e845c4346f14",
+          "slotId": "symbol",
+          "heading": "PureHelper",
+          "headingSlug": "purehelper",
+          "symbolId": "symbol:v1:a2fe9313619f25b3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:5f6e3271bda5ab5d",
+          "slotId": "symbol",
+          "heading": "RankableCandidate",
+          "headingSlug": "rankablecandidate",
+          "symbolId": "symbol:v1:d04f2af84666f19c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:47e4d5d91e21752a",
+          "slotId": "symbol",
+          "heading": "RateLimitKeyOptions",
+          "headingSlug": "ratelimitkeyoptions",
+          "symbolId": "symbol:v1:508c3983c7b4f12b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1af0bac756647027",
+          "slotId": "symbol",
+          "heading": "ReadOptions",
+          "headingSlug": "readoptions",
+          "symbolId": "symbol:v1:3c57ce43d1da6bbc"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:600c7e4738637d7a",
+          "slotId": "symbol",
+          "heading": "RedactionResult",
+          "headingSlug": "redactionresult",
+          "symbolId": "symbol:v1:b1f7ffb4ec8833a1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d42185dee5357572",
+          "slotId": "symbol",
+          "heading": "RedactionRule",
+          "headingSlug": "redactionrule",
+          "symbolId": "symbol:v1:be43ef6013fd66d3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:36095172ddacb2b0",
+          "slotId": "symbol",
+          "heading": "Redactor",
+          "headingSlug": "redactor",
+          "symbolId": "symbol:v1:29bd9333bdafd0ce"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:35497164d2476d95",
+          "slotId": "symbol",
+          "heading": "ReexportResolution",
+          "headingSlug": "reexportresolution",
+          "symbolId": "symbol:v1:b24904b712479268"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:be87c37e20e4b76b",
+          "slotId": "symbol",
+          "heading": "RepoInventory",
+          "headingSlug": "repoinventory",
+          "symbolId": "symbol:v1:7e3cae079f0df2e5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:fe0d6e5f2ce4614b",
+          "slotId": "symbol",
+          "heading": "ResolvedId",
+          "headingSlug": "resolvedid",
+          "symbolId": "symbol:v1:6faf39733cbfdc17"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:31795cd4c6696ae7",
+          "slotId": "symbol",
+          "heading": "RunCheckOptions",
+          "headingSlug": "runcheckoptions",
+          "symbolId": "symbol:v1:614c85ecbcbb7a2a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4289d114f7ebf9f1",
+          "slotId": "symbol",
+          "heading": "RunGenerateOptions",
+          "headingSlug": "rungenerateoptions",
+          "symbolId": "symbol:v1:76b8ad5059a37b8e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e7901f3d2783d972",
+          "slotId": "symbol",
+          "heading": "RunLoadOptions",
+          "headingSlug": "runloadoptions",
+          "symbolId": "symbol:v1:7734e27c3c5bc3fa"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9a00ba7b08892ab6",
+          "slotId": "symbol",
+          "heading": "RunSearchOptions",
+          "headingSlug": "runsearchoptions",
+          "symbolId": "symbol:v1:b65a54d81f21d82e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a9c85c91f4afff34",
+          "slotId": "symbol",
+          "heading": "SAFE_DEFAULT_ENV_KEYS",
+          "headingSlug": "safe-default-env-keys",
+          "symbolId": "symbol:v1:39930afb528267ca"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:048d562067293a17",
+          "slotId": "symbol",
+          "heading": "SEARCH_DOCUMENT_FTS_COLUMNS",
+          "headingSlug": "search-document-fts-columns",
+          "symbolId": "symbol:v1:f3fd8f9c8157657a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b364e88adc2673ef",
+          "slotId": "symbol",
+          "heading": "SEARCH_DOCUMENT_FTS_TABLE",
+          "headingSlug": "search-document-fts-table",
+          "symbolId": "symbol:v1:911634546bff0bbe"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1692c03d0d657a41",
+          "slotId": "symbol",
+          "heading": "SEARCH_KINDS",
+          "headingSlug": "search-kinds",
+          "symbolId": "symbol:v1:828e57434ab89799"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:620d9ed5f5877482",
+          "slotId": "symbol",
+          "heading": "SEARCH_TOKENIZER_VERSION",
+          "headingSlug": "search-tokenizer-version",
+          "symbolId": "symbol:v1:f85490ad62eeb7ef"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f528c21e6386e514",
+          "slotId": "symbol",
+          "heading": "SEARCH_TOOL_VERSION",
+          "headingSlug": "search-tool-version",
+          "symbolId": "symbol:v1:b531b601994d045d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:21ff1b226bf59038",
+          "slotId": "symbol",
+          "heading": "SafeDetail",
+          "headingSlug": "safedetail",
+          "symbolId": "symbol:v1:689d96a999c6b504"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:5fabf481fcbd650e",
+          "slotId": "symbol",
+          "heading": "SafeError",
+          "headingSlug": "safeerror",
+          "symbolId": "symbol:v1:d807b784e8626b92"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3633ec0a33dd7d75",
+          "slotId": "symbol",
+          "heading": "SafePathPolicy",
+          "headingSlug": "safepathpolicy",
+          "symbolId": "symbol:v1:df2f709fc659cb34"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2e912aef2fc25dc8",
+          "slotId": "symbol",
+          "heading": "SafePathResult",
+          "headingSlug": "safepathresult",
+          "symbolId": "symbol:v1:1ff29407868eeaa8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7aa45fdc59860298",
+          "slotId": "symbol",
+          "heading": "SanitizedEvidence",
+          "headingSlug": "sanitizedevidence",
+          "symbolId": "symbol:v1:6438eb1236f7e72c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f3fb5f738a7f844c",
+          "slotId": "symbol",
+          "heading": "SearchCliOptions",
+          "headingSlug": "searchclioptions",
+          "symbolId": "symbol:v1:19010b6069c5adc1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:99d8c75453801a10",
+          "slotId": "symbol",
+          "heading": "SearchCliOverrides",
+          "headingSlug": "searchclioverrides",
+          "symbolId": "symbol:v1:9ebe186c85965061"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:def5b518fd0111c1",
+          "slotId": "symbol",
+          "heading": "SearchData",
+          "headingSlug": "searchdata",
+          "symbolId": "symbol:v1:1b5f98fa6cb59c0f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:51e9de97fbe7f396",
+          "slotId": "symbol",
+          "heading": "SearchDocumentRow",
+          "headingSlug": "searchdocumentrow",
+          "symbolId": "symbol:v1:1c5b1a7c83cd5113"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c90b6b88d06fa05f",
+          "slotId": "symbol",
+          "heading": "SearchDocumentRowInput",
+          "headingSlug": "searchdocumentrowinput",
+          "symbolId": "symbol:v1:9750221fd17102be"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e5c1e6cb03fb2e9b",
+          "slotId": "symbol",
+          "heading": "SearchEnvelope",
+          "headingSlug": "searchenvelope",
+          "symbolId": "symbol:v1:44abdab3821123cf"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d3cdb16dff0099a4",
+          "slotId": "symbol",
+          "heading": "SearchExecutionInput",
+          "headingSlug": "searchexecutioninput",
+          "symbolId": "symbol:v1:b4389b5ea8b89cd7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:756a9fff69dba781",
+          "slotId": "symbol",
+          "heading": "SearchExecutionResult",
+          "headingSlug": "searchexecutionresult",
+          "symbolId": "symbol:v1:3cce427c07c6d64a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4cffe720f247285f",
+          "slotId": "symbol",
+          "heading": "SearchKind",
+          "headingSlug": "searchkind",
+          "symbolId": "symbol:v1:586e4bc2ece79b4d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a3301f8882c612d0",
+          "slotId": "symbol",
+          "heading": "SearchOutcome",
+          "headingSlug": "searchoutcome",
+          "symbolId": "symbol:v1:7cc88735c52a8f7c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3e998407468f96c0",
+          "slotId": "symbol",
+          "heading": "SearchTier",
+          "headingSlug": "searchtier",
+          "symbolId": "symbol:v1:2fd109de024e39e9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e3399f44fd87cd89",
+          "slotId": "symbol",
+          "heading": "SectionRecord",
+          "headingSlug": "sectionrecord",
+          "symbolId": "symbol:v1:885e3da2ca4db741"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d53fba98da95b16d",
+          "slotId": "symbol",
+          "heading": "SecurityAuditEvent",
+          "headingSlug": "securityauditevent",
+          "symbolId": "symbol:v1:f674f072d2371d80"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e5ca1340fab2150b",
+          "slotId": "symbol",
+          "heading": "SecurityAuditEventKind",
+          "headingSlug": "securityauditeventkind",
+          "symbolId": "symbol:v1:53bb848eb3603541"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:21affe5b4ba391e5",
+          "slotId": "symbol",
+          "heading": "SecurityPolicyDecision",
+          "headingSlug": "securitypolicydecision",
+          "symbolId": "symbol:v1:4f0d74f8a3ee24f0"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:33e6d89532e738a3",
+          "slotId": "symbol",
+          "heading": "SignatureRow",
+          "headingSlug": "signaturerow",
+          "symbolId": "symbol:v1:4040a16e819dd974"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:fdc628d003e42892",
+          "slotId": "symbol",
+          "heading": "SnapshotIdentity",
+          "headingSlug": "snapshotidentity",
+          "symbolId": "symbol:v1:b58aaacee9cd1e14"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2f70d4b50647c981",
+          "slotId": "symbol",
+          "heading": "SnapshotKind",
+          "headingSlug": "snapshotkind",
+          "symbolId": "symbol:v1:409c4ea50dbf9c3f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6988822559600ed2",
+          "slotId": "symbol",
+          "heading": "SnapshotRow",
+          "headingSlug": "snapshotrow",
+          "symbolId": "symbol:v1:9be0f38bcaf9e517"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:370162f943232fe8",
+          "slotId": "symbol",
+          "heading": "SnapshotRowInput",
+          "headingSlug": "snapshotrowinput",
+          "symbolId": "symbol:v1:50380240ad1ff96d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:bd1ae7d884493b44",
+          "slotId": "symbol",
+          "heading": "SnapshotSummary",
+          "headingSlug": "snapshotsummary",
+          "symbolId": "symbol:v1:1022ff5a58e3af05"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c4f3e39470e3d223",
+          "slotId": "symbol",
+          "heading": "SourceExplorer",
+          "headingSlug": "sourceexplorer",
+          "symbolId": "symbol:v1:512bb467f3dcfba4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1a4ef281528797b7",
+          "slotId": "symbol",
+          "heading": "SourceFileEntry",
+          "headingSlug": "sourcefileentry",
+          "symbolId": "symbol:v1:7345f27deb36d01e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:08b97e09768b4d80",
+          "slotId": "symbol",
+          "heading": "SourceFileKind",
+          "headingSlug": "sourcefilekind",
+          "symbolId": "symbol:v1:405faf0932a5fd9d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e9a45d87b8e1e950",
+          "slotId": "symbol",
+          "heading": "SourceFilePolicy",
+          "headingSlug": "sourcefilepolicy",
+          "symbolId": "symbol:v1:2a1472c9949d8788"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3541c1f5338887c9",
+          "slotId": "symbol",
+          "heading": "SourceFileRow",
+          "headingSlug": "sourcefilerow",
+          "symbolId": "symbol:v1:72531367828f3cb1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2956ebda5b54a650",
+          "slotId": "symbol",
+          "heading": "SourceFileRowInput",
+          "headingSlug": "sourcefilerowinput",
+          "symbolId": "symbol:v1:a4e1e1928c7bb90a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9c89116a1f20b050",
+          "slotId": "symbol",
+          "heading": "SourceFileVersionRow",
+          "headingSlug": "sourcefileversionrow",
+          "symbolId": "symbol:v1:1365a604999184d1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7f91824b6cc39ee4",
+          "slotId": "symbol",
+          "heading": "SourceRange",
+          "headingSlug": "sourcerange",
+          "symbolId": "symbol:v1:24af33835544efdf"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:dd9cc6c2a9d0f503",
+          "slotId": "symbol",
+          "heading": "SourceRef",
+          "headingSlug": "sourceref",
+          "symbolId": "symbol:v1:c5e4730b25413cdb"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:fe446645bfba200a",
+          "slotId": "symbol",
+          "heading": "SourceScanResult",
+          "headingSlug": "sourcescanresult",
+          "symbolId": "symbol:v1:852f3e383f89bcfe"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3925c40c5755af03",
+          "slotId": "symbol",
+          "heading": "Span",
+          "headingSlug": "span",
+          "symbolId": "symbol:v1:20bbf6134841187e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d9a414a4d68ff2fa",
+          "slotId": "symbol",
+          "heading": "SqlParam",
+          "headingSlug": "sqlparam",
+          "symbolId": "symbol:v1:0847c784c3b59d8d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c107c4a5ee850262",
+          "slotId": "symbol",
+          "heading": "SqliteAdapter",
+          "headingSlug": "sqliteadapter",
+          "symbolId": "symbol:v1:da9c0af3b42c7635"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:785442b3ef706835",
+          "slotId": "symbol",
+          "heading": "SqliteCreateOptions",
+          "headingSlug": "sqlitecreateoptions",
+          "symbolId": "symbol:v1:cb95fb24e8c29c85"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3a9b07f8b6d09e69",
+          "slotId": "symbol",
+          "heading": "SqliteDatabase",
+          "headingSlug": "sqlitedatabase",
+          "symbolId": "symbol:v1:de054bd8e665dd0e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:535cb27c2254fa75",
+          "slotId": "symbol",
+          "heading": "SqliteFtsDefinition",
+          "headingSlug": "sqliteftsdefinition",
+          "symbolId": "symbol:v1:71c4ff1e0f91b3a4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e938d4caf8e64cfb",
+          "slotId": "symbol",
+          "heading": "SqliteFtsOptions",
+          "headingSlug": "sqliteftsoptions",
+          "symbolId": "symbol:v1:ce1af6e4786cbf0f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f53b84c612a2c703",
+          "slotId": "symbol",
+          "heading": "SqliteHealthOptions",
+          "headingSlug": "sqlitehealthoptions",
+          "symbolId": "symbol:v1:c6abcb63298a4833"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:822fed7484a0be66",
+          "slotId": "symbol",
+          "heading": "SqliteHealthResult",
+          "headingSlug": "sqlitehealthresult",
+          "symbolId": "symbol:v1:7508c473f6d0927c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c6d07fbc6b664384",
+          "slotId": "symbol",
+          "heading": "SqliteMigration",
+          "headingSlug": "sqlitemigration",
+          "symbolId": "symbol:v1:84c12f7fb5b7af17"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1be84401b34218e1",
+          "slotId": "symbol",
+          "heading": "SqliteMigrationResult",
+          "headingSlug": "sqlitemigrationresult",
+          "symbolId": "symbol:v1:639a672b3574c5a6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:acbd2ef5c9c132e4",
+          "slotId": "symbol",
+          "heading": "SqliteOpenOptions",
+          "headingSlug": "sqliteopenoptions",
+          "symbolId": "symbol:v1:e19420886ce9e261"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c73011981e36bffd",
+          "slotId": "symbol",
+          "heading": "SqlitePolicy",
+          "headingSlug": "sqlitepolicy",
+          "symbolId": "symbol:v1:962d4cec26af8f01"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:55a7af8a6e31704e",
+          "slotId": "symbol",
+          "heading": "SqliteRunMigrationsOptions",
+          "headingSlug": "sqliterunmigrationsoptions",
+          "symbolId": "symbol:v1:d574621391cf54bf"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c819c90a1cb32b2b",
+          "slotId": "symbol",
+          "heading": "SqliteTransactionOptions",
+          "headingSlug": "sqlitetransactionoptions",
+          "symbolId": "symbol:v1:fa658d891b1b68f9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6d32fc6133457e3d",
+          "slotId": "symbol",
+          "heading": "StrictTemplate",
+          "headingSlug": "stricttemplate",
+          "symbolId": "symbol:v1:bcc5b511246da887"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:40c046dee45d22c0",
+          "slotId": "symbol",
+          "heading": "SymbolRow",
+          "headingSlug": "symbolrow",
+          "symbolId": "symbol:v1:3263c78ffa79090f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c79ae32720bd75bd",
+          "slotId": "symbol",
+          "heading": "SymbolRowInput",
+          "headingSlug": "symbolrowinput",
+          "symbolId": "symbol:v1:2d7c0ced18527ab1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:89e951710b723500",
+          "slotId": "symbol",
+          "heading": "TELEMETRY_ATTRIBUTES",
+          "headingSlug": "telemetry-attributes",
+          "symbolId": "symbol:v1:301beb0739ee97b7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9d72f9e23c16722f",
+          "slotId": "symbol",
+          "heading": "TELEMETRY_ATTRIBUTES",
+          "headingSlug": "telemetry-attributes",
+          "symbolId": "symbol:v1:608d04936da8d836"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ef60bbdce84441a8",
+          "slotId": "symbol",
+          "heading": "TELEMETRY_ATTRIBUTES",
+          "headingSlug": "telemetry-attributes",
+          "symbolId": "symbol:v1:9ce38b491cc2c906"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4c5333f3a78a3323",
+          "slotId": "symbol",
+          "heading": "TELEMETRY_ATTRIBUTES",
+          "headingSlug": "telemetry-attributes",
+          "symbolId": "symbol:v1:783338f228a1e73c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:bdc1d50c1b668901",
+          "slotId": "symbol",
+          "heading": "TELEMETRY_ATTRIBUTES",
+          "headingSlug": "telemetry-attributes",
+          "symbolId": "symbol:v1:3bcd250c65875c8e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a8ab49297133c7d7",
+          "slotId": "symbol",
+          "heading": "TELEMETRY_ATTRIBUTES",
+          "headingSlug": "telemetry-attributes",
+          "symbolId": "symbol:v1:50bc12e282d85175"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:13c131ebc698c64f",
+          "slotId": "symbol",
+          "heading": "TELEMETRY_ATTRIBUTES",
+          "headingSlug": "telemetry-attributes",
+          "symbolId": "symbol:v1:926dd03b2e97ea10"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f3513e03f9492cfb",
+          "slotId": "symbol",
+          "heading": "TELEMETRY_METRICS",
+          "headingSlug": "telemetry-metrics",
+          "symbolId": "symbol:v1:8d25c08a0384c559"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:cab967edb626e0d0",
+          "slotId": "symbol",
+          "heading": "TEMPLATE_PACK_MANIFEST_FILE",
+          "headingSlug": "template-pack-manifest-file",
+          "symbolId": "symbol:v1:ebe91d35506df0c3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ede081ffd558b8d2",
+          "slotId": "symbol",
+          "heading": "TIER_RANK",
+          "headingSlug": "tier-rank",
+          "symbolId": "symbol:v1:e17ffe9804dbbcbe"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2f98b4046a9a4587",
+          "slotId": "symbol",
+          "heading": "TemplateFile",
+          "headingSlug": "templatefile",
+          "symbolId": "symbol:v1:6c6bc7cb8883f5f2"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:5b0f656abf9a0c73",
+          "slotId": "symbol",
+          "heading": "TemplateName",
+          "headingSlug": "templatename",
+          "symbolId": "symbol:v1:4814422c5ce3057c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ba8a9cf2feab8677",
+          "slotId": "symbol",
+          "heading": "TemplatePackManifest",
+          "headingSlug": "templatepackmanifest",
+          "symbolId": "symbol:v1:f76a1fc6871ab13c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:fe8468649c318488",
+          "slotId": "symbol",
+          "heading": "ToProblemDetailsOptions",
+          "headingSlug": "toproblemdetailsoptions",
+          "symbolId": "symbol:v1:ea3f54b9c56a54d8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:74b3b0137566d9a8",
+          "slotId": "symbol",
+          "heading": "Tracer",
+          "headingSlug": "tracer",
+          "symbolId": "symbol:v1:45e11513afb0aba6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7737417fe2147cdd",
+          "slotId": "symbol",
+          "heading": "ValidateGeneratedDocResult",
+          "headingSlug": "validategenerateddocresult",
+          "symbolId": "symbol:v1:d28722ddbb1fd3c0"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e15b19b11d459bfd",
+          "slotId": "symbol",
+          "heading": "WorkspaceInventory",
+          "headingSlug": "workspaceinventory",
+          "symbolId": "symbol:v1:9fbd04d44553f1c5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9645d348d02c5379",
+          "slotId": "symbol",
+          "heading": "WorkspaceKind",
+          "headingSlug": "workspacekind",
+          "symbolId": "symbol:v1:e1a040a1d0193000"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:74c122ec01d0a571",
+          "slotId": "symbol",
+          "heading": "apiReferenceDtoSchema",
+          "headingSlug": "apireferencedtoschema",
+          "symbolId": "symbol:v1:769420c514c31938"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:bb2ce74f0c835cab",
+          "slotId": "symbol",
+          "heading": "appendLoadTimingEntry",
+          "headingSlug": "appendloadtimingentry",
+          "symbolId": "symbol:v1:75bdf58ec1fc1bc8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:befea8df0afb35f3",
+          "slotId": "symbol",
+          "heading": "assertAppPathInside",
+          "headingSlug": "assertapppathinside",
+          "symbolId": "symbol:v1:ea18fe1d54e9283c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d14d69b39a4b411f",
+          "slotId": "symbol",
+          "heading": "assertDatasetIdentifiersSafe",
+          "headingSlug": "assertdatasetidentifierssafe",
+          "symbolId": "symbol:v1:072ad0160b726b6e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:eb3e62990bafd3c3",
+          "slotId": "symbol",
+          "heading": "assertDatasetPathContained",
+          "headingSlug": "assertdatasetpathcontained",
+          "symbolId": "symbol:v1:1204af6a217319d1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8d921ed49f17f05f",
+          "slotId": "symbol",
+          "heading": "assertNormalizedTimestamp",
+          "headingSlug": "assertnormalizedtimestamp",
+          "symbolId": "symbol:v1:cd54d7682500cddb"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d3b71715af29a56b",
+          "slotId": "symbol",
+          "heading": "assertOutboundUrlAllowed",
+          "headingSlug": "assertoutboundurlallowed",
+          "symbolId": "symbol:v1:7b929403f9c73ccb"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4b20f992e81ba112",
+          "slotId": "symbol",
+          "heading": "assertSafePath",
+          "headingSlug": "assertsafepath",
+          "symbolId": "symbol:v1:050cf7669d34a068"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c811dc8067d716b2",
+          "slotId": "symbol",
+          "heading": "buildApiReferenceDto",
+          "headingSlug": "buildapireferencedto",
+          "symbolId": "symbol:v1:3ec32ca87988d27e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d092edc0fb4505df",
+          "slotId": "symbol",
+          "heading": "buildCitationId",
+          "headingSlug": "buildcitationid",
+          "symbolId": "symbol:v1:b413621e90d7402a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:0a3ddbcc7411c3da",
+          "slotId": "symbol",
+          "heading": "buildDiagnosticId",
+          "headingSlug": "builddiagnosticid",
+          "symbolId": "symbol:v1:2bf3cd3f6127298b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d2fb03d2de92c1cd",
+          "slotId": "symbol",
+          "heading": "buildDocument",
+          "headingSlug": "builddocument",
+          "symbolId": "symbol:v1:f132a75937292903"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6b6af2aa26e25a1f",
+          "slotId": "symbol",
+          "heading": "buildEvidenceId",
+          "headingSlug": "buildevidenceid",
+          "symbolId": "symbol:v1:a0a291e51c83b78b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:0c6cc9e6ca33cb96",
+          "slotId": "symbol",
+          "heading": "buildGeneratedDocId",
+          "headingSlug": "buildgenerateddocid",
+          "symbolId": "symbol:v1:94b799658d0a4010"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7b0c746d78518eaa",
+          "slotId": "symbol",
+          "heading": "buildGeneratedSectionId",
+          "headingSlug": "buildgeneratedsectionid",
+          "symbolId": "symbol:v1:830fca4d624eb338"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b24a09f3d1810ae7",
+          "slotId": "symbol",
+          "heading": "buildHashedId",
+          "headingSlug": "buildhashedid",
+          "symbolId": "symbol:v1:aca63e839c79da14"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4cc8b169c2776999",
+          "slotId": "symbol",
+          "heading": "buildIgnoreChecker",
+          "headingSlug": "buildignorechecker",
+          "symbolId": "symbol:v1:a199193a2845da62"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2b9f80c391e2a369",
+          "slotId": "symbol",
+          "heading": "buildPackageId",
+          "headingSlug": "buildpackageid",
+          "symbolId": "symbol:v1:1e85150beac7fe62"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:0fec5ecbe7dbc5dc",
+          "slotId": "symbol",
+          "heading": "buildPackageOverviewDto",
+          "headingSlug": "buildpackageoverviewdto",
+          "symbolId": "symbol:v1:25dda2d5447006a5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b028c0a3f1469202",
+          "slotId": "symbol",
+          "heading": "buildProcessEnv",
+          "headingSlug": "buildprocessenv",
+          "symbolId": "symbol:v1:b4c04ccc168be770"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d9edda4283e74ae7",
+          "slotId": "symbol",
+          "heading": "buildProjectId",
+          "headingSlug": "buildprojectid",
+          "symbolId": "symbol:v1:4f272171ba6e4a35"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4e34dc218cf64d51",
+          "slotId": "symbol",
+          "heading": "buildRunGenerateOptions",
+          "headingSlug": "buildrungenerateoptions",
+          "symbolId": "symbol:v1:22de393faedcf7d4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:def1503881fb2cda",
+          "slotId": "symbol",
+          "heading": "buildSearchDocId",
+          "headingSlug": "buildsearchdocid",
+          "symbolId": "symbol:v1:d1966226ea9263aa"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:0c239d175c6c1383",
+          "slotId": "symbol",
+          "heading": "buildSearchFtsCreateStatement",
+          "headingSlug": "buildsearchftscreatestatement",
+          "symbolId": "symbol:v1:b6115b019fcd8efd"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:83f78278c7ad566f",
+          "slotId": "symbol",
+          "heading": "buildSignatureId",
+          "headingSlug": "buildsignatureid",
+          "symbolId": "symbol:v1:375413229e91106d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8a79b142e91267a6",
+          "slotId": "symbol",
+          "heading": "buildSnapshotSummary",
+          "headingSlug": "buildsnapshotsummary",
+          "symbolId": "symbol:v1:a4cc39c66a591542"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c35450539cc1d0f5",
+          "slotId": "symbol",
+          "heading": "buildSourceFileId",
+          "headingSlug": "buildsourcefileid",
+          "symbolId": "symbol:v1:1ec6340832e6b1c6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:bb84b6ac6dd2c3d9",
+          "slotId": "symbol",
+          "heading": "buildSourceFileVersionId",
+          "headingSlug": "buildsourcefileversionid",
+          "symbolId": "symbol:v1:5a3ec368866afd7f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:312584a4f3f1d054",
+          "slotId": "symbol",
+          "heading": "buildSymbolId",
+          "headingSlug": "buildsymbolid",
+          "symbolId": "symbol:v1:fb37f659dad387d5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:864862df11fe63a5",
+          "slotId": "symbol",
+          "heading": "checkCommandDefinition",
+          "headingSlug": "checkcommanddefinition",
+          "symbolId": "symbol:v1:4a69559819c0e61e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d8143d012e1af3b4",
+          "slotId": "symbol",
+          "heading": "checkDataSchema",
+          "headingSlug": "checkdataschema",
+          "symbolId": "symbol:v1:10bdf3c14d51b3a3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8747b81bf2481132",
+          "slotId": "symbol",
+          "heading": "checkDatabaseReadinessSchema",
+          "headingSlug": "checkdatabasereadinessschema",
+          "symbolId": "symbol:v1:d465e05b753ff050"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:97f16b6a3c6b43e4",
+          "slotId": "symbol",
+          "heading": "checkEnvelopeSchema",
+          "headingSlug": "checkenvelopeschema",
+          "symbolId": "symbol:v1:ae2ce2291821b6c0"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:16a76a59bda92989",
+          "slotId": "symbol",
+          "heading": "checkManagedDatabaseHealth",
+          "headingSlug": "checkmanageddatabasehealth",
+          "symbolId": "symbol:v1:ed99102a44d662e4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:74cfab50e096d419",
+          "slotId": "symbol",
+          "heading": "checkPreflightCheckSchema",
+          "headingSlug": "checkpreflightcheckschema",
+          "symbolId": "symbol:v1:85daaeb5e1a717eb"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f321d93c66db0a1f",
+          "slotId": "symbol",
+          "heading": "checkSqliteHealth",
+          "headingSlug": "checksqlitehealth",
+          "symbolId": "symbol:v1:cf1072bd9f4ad869"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b5c7c8348bbad8e9",
+          "slotId": "symbol",
+          "heading": "checkTemplateReadinessSchema",
+          "headingSlug": "checktemplatereadinessschema",
+          "symbolId": "symbol:v1:e34a6e0ff112f365"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b3d47eb2adc60c81",
+          "slotId": "symbol",
+          "heading": "closeDataset",
+          "headingSlug": "closedataset",
+          "symbolId": "symbol:v1:8a1e5208b71a6550"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:60f4a5deb0bb4e3a",
+          "slotId": "symbol",
+          "heading": "closeSqliteDatabase",
+          "headingSlug": "closesqlitedatabase",
+          "symbolId": "symbol:v1:5d2c69cb84bb1b30"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:aa5fe27063b6ad36",
+          "slotId": "symbol",
+          "heading": "commandEnvelopeSchemaVersions",
+          "headingSlug": "commandenvelopeschemaversions",
+          "symbolId": "symbol:v1:1a41d23f60bdf306"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:53d444c9e8d7c618",
+          "slotId": "symbol",
+          "heading": "commandEnvelopeSchemas",
+          "headingSlug": "commandenvelopeschemas",
+          "symbolId": "symbol:v1:cbaf6043c097ca0a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b10872de2c25a0f8",
+          "slotId": "symbol",
+          "heading": "commitWritePlan",
+          "headingSlug": "commitwriteplan",
+          "symbolId": "symbol:v1:4f4b3863d5d5d1af"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d998a1e24a94f943",
+          "slotId": "symbol",
+          "heading": "compareCandidates",
+          "headingSlug": "comparecandidates",
+          "symbolId": "symbol:v1:a3b6a5569c40fdb2"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2eba0a9e6bdf28a3",
+          "slotId": "symbol",
+          "heading": "compileStrict",
+          "headingSlug": "compilestrict",
+          "symbolId": "symbol:v1:b80e37bc8c08c257"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e6d09fa606c4483a",
+          "slotId": "symbol",
+          "heading": "computeSnapshotId",
+          "headingSlug": "computesnapshotid",
+          "symbolId": "symbol:v1:ce8ee517e3e9b5c4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3a0a74b552088e56",
+          "slotId": "symbol",
+          "heading": "computeSnapshotIdentity",
+          "headingSlug": "computesnapshotidentity",
+          "symbolId": "symbol:v1:5aba59f58b33ca1b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:bee179fc62d71da4",
+          "slotId": "symbol",
+          "heading": "conceptPathFor",
+          "headingSlug": "conceptpathfor",
+          "symbolId": "symbol:v1:ee1e19e0dbb591f7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:cc7c92708c2e607d",
+          "slotId": "symbol",
+          "heading": "countRows",
+          "headingSlug": "countrows",
+          "symbolId": "symbol:v1:be464939c6cc2749"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:556c3eb9d1a51e2f",
+          "slotId": "symbol",
+          "heading": "createAppError",
+          "headingSlug": "createapperror",
+          "symbolId": "symbol:v1:008a3d80f5ae41bf"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8596356dd7a7e43f",
+          "slotId": "symbol",
+          "heading": "createAtomicWritePlan",
+          "headingSlug": "createatomicwriteplan",
+          "symbolId": "symbol:v1:6b959401cbebcc10"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:70d5f5c3058bbb68",
+          "slotId": "symbol",
+          "heading": "createCliOutput",
+          "headingSlug": "createclioutput",
+          "symbolId": "symbol:v1:2f3f8624b8624ea6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a4fdc5f6fe136dbb",
+          "slotId": "symbol",
+          "heading": "createCliProgram",
+          "headingSlug": "createcliprogram",
+          "symbolId": "symbol:v1:db6a69bfb3e213d4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:248b64fe6b25cf0b",
+          "slotId": "symbol",
+          "heading": "createDiagnostic",
+          "headingSlug": "creatediagnostic",
+          "symbolId": "symbol:v1:6b8c34e34517b074"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b2c74dc2095d450a",
+          "slotId": "symbol",
+          "heading": "createDiagnosticCodeRegistry",
+          "headingSlug": "creatediagnosticcoderegistry",
+          "symbolId": "symbol:v1:03d5f59e31875f4c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4d8500e0b94406fa",
+          "slotId": "symbol",
+          "heading": "createErrorRegistry",
+          "headingSlug": "createerrorregistry",
+          "symbolId": "symbol:v1:a717295bb507f957"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:aace03f60053e03e",
+          "slotId": "symbol",
+          "heading": "createFtsTable",
+          "headingSlug": "createftstable",
+          "symbolId": "symbol:v1:98ef96306a22a3be"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b384715dc0d49c09",
+          "slotId": "symbol",
+          "heading": "createOutboundUrlPolicy",
+          "headingSlug": "createoutboundurlpolicy",
+          "symbolId": "symbol:v1:a3470c694be6966a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:fe209be34e380c8d",
+          "slotId": "symbol",
+          "heading": "createProcessRunner",
+          "headingSlug": "createprocessrunner",
+          "symbolId": "symbol:v1:5b910b19d994070c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e1d97b62dd93ba83",
+          "slotId": "symbol",
+          "heading": "createRateLimitKey",
+          "headingSlug": "createratelimitkey",
+          "symbolId": "symbol:v1:f39787151590242a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2fedf7d2f1922661",
+          "slotId": "symbol",
+          "heading": "createRedactor",
+          "headingSlug": "createredactor",
+          "symbolId": "symbol:v1:f84ffcc13d64e66f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:0771be0e4d64d0d0",
+          "slotId": "symbol",
+          "heading": "createSafePathPolicy",
+          "headingSlug": "createsafepathpolicy",
+          "symbolId": "symbol:v1:93728392daa17156"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a7e1e01cf3ba7585",
+          "slotId": "symbol",
+          "heading": "createSecurityAuditEvent",
+          "headingSlug": "createsecurityauditevent",
+          "symbolId": "symbol:v1:e63facc2d2b6d89a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:184dd8802f3b93d3",
+          "slotId": "symbol",
+          "heading": "createSourceExplorer",
+          "headingSlug": "createsourceexplorer",
+          "symbolId": "symbol:v1:4c342e9aac343f5a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b3c91ee9095b890b",
+          "slotId": "symbol",
+          "heading": "createSqliteDatabase",
+          "headingSlug": "createsqlitedatabase",
+          "symbolId": "symbol:v1:a4827147a7d8f650"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8a27fd2412defbd8",
+          "slotId": "symbol",
+          "heading": "createValidationDiagnostic",
+          "headingSlug": "createvalidationdiagnostic",
+          "symbolId": "symbol:v1:44d77b1f093402d3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:efe5827908920a84",
+          "slotId": "symbol",
+          "heading": "declaredTypeTextForUnannotatedExport",
+          "headingSlug": "declaredtypetextforunannotatedexport",
+          "symbolId": "symbol:v1:4e5dcacee7adcb9c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b0d62f641ac37f88",
+          "slotId": "symbol",
+          "heading": "defineCliCommand",
+          "headingSlug": "defineclicommand",
+          "symbolId": "symbol:v1:12a5efb00d3bb46c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:0142afdb654eeb41",
+          "slotId": "symbol",
+          "heading": "defineCliCommandGroup",
+          "headingSlug": "defineclicommandgroup",
+          "symbolId": "symbol:v1:d578cf685e94cb81"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6b09a54548112b89",
+          "slotId": "symbol",
+          "heading": "deriveProjectKey",
+          "headingSlug": "deriveprojectkey",
+          "symbolId": "symbol:v1:46b79cb6ab00a493"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8919cc2039d19b22",
+          "slotId": "symbol",
+          "heading": "detectFileKind",
+          "headingSlug": "detectfilekind",
+          "symbolId": "symbol:v1:49e59ef19c93c81b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7822262af1469a87",
+          "slotId": "symbol",
+          "heading": "detectIdCollisions",
+          "headingSlug": "detectidcollisions",
+          "symbolId": "symbol:v1:0e12993f7eb4ada9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e018f329554e068f",
+          "slotId": "symbol",
+          "heading": "detectPackageManager",
+          "headingSlug": "detectpackagemanager",
+          "symbolId": "symbol:v1:fc8fcecd80162ab6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1a619c43ca4cbb0f",
+          "slotId": "symbol",
+          "heading": "determinismInputsSchema",
+          "headingSlug": "determinisminputsschema",
+          "symbolId": "symbol:v1:a33ec4afb8ffa89f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:cced1e3e1da569c7",
+          "slotId": "symbol",
+          "heading": "diagnosticCodeSchema",
+          "headingSlug": "diagnosticcodeschema",
+          "symbolId": "symbol:v1:f87ce482b43a35cd"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c6074ec1e7738189",
+          "slotId": "symbol",
+          "heading": "diagnosticSchema",
+          "headingSlug": "diagnosticschema",
+          "symbolId": "symbol:v1:13259581bfb11244"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2f0196c75741a01e",
+          "slotId": "symbol",
+          "heading": "diagnosticSeveritySchema",
+          "headingSlug": "diagnosticseverityschema",
+          "symbolId": "symbol:v1:6a3fb6eaec28bf0a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d4560099d2a1396c",
+          "slotId": "symbol",
+          "heading": "discoverRepository",
+          "headingSlug": "discoverrepository",
+          "symbolId": "symbol:v1:0492692e72fa2b51"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9bfde78019677b8c",
+          "slotId": "symbol",
+          "heading": "discoverWorkspace",
+          "headingSlug": "discoverworkspace",
+          "symbolId": "symbol:v1:c299e86631af7768"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e23efaea7ccdbf72",
+          "slotId": "symbol",
+          "heading": "endSpanError",
+          "headingSlug": "endspanerror",
+          "symbolId": "symbol:v1:135a2bfd07f92b20"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:33266dd11686d53a",
+          "slotId": "symbol",
+          "heading": "endSpanOk",
+          "headingSlug": "endspanok",
+          "symbolId": "symbol:v1:e7af968a5c309ef7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:59bf67922327a00a",
+          "slotId": "symbol",
+          "heading": "ensureAppPath",
+          "headingSlug": "ensureapppath",
+          "symbolId": "symbol:v1:a1480e2fc1f5b10e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:545550f56529de83",
+          "slotId": "symbol",
+          "heading": "envelopeMetaSchema",
+          "headingSlug": "envelopemetaschema",
+          "symbolId": "symbol:v1:ee0c66a36b2bb15a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:baa19f5235eb37a1",
+          "slotId": "symbol",
+          "heading": "executableLabel",
+          "headingSlug": "executablelabel",
+          "symbolId": "symbol:v1:c527fbbd969e4f71"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ceb9740c9b17506e",
+          "slotId": "symbol",
+          "heading": "executeCheckCommand",
+          "headingSlug": "executecheckcommand",
+          "symbolId": "symbol:v1:5a5757cff37cbff1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e8fe1204ddc243b2",
+          "slotId": "symbol",
+          "heading": "executeGenerateCommand",
+          "headingSlug": "executegeneratecommand",
+          "symbolId": "symbol:v1:3b6da7519580b26c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:60e8cf66270e8982",
+          "slotId": "symbol",
+          "heading": "executeLoadCommand",
+          "headingSlug": "executeloadcommand",
+          "symbolId": "symbol:v1:a8125ad79feea92c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e7569a9de808d4dc",
+          "slotId": "symbol",
+          "heading": "executeSearch",
+          "headingSlug": "executesearch",
+          "symbolId": "symbol:v1:6c793897ef47e5a5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3ba88834b7d65dc5",
+          "slotId": "symbol",
+          "heading": "executeSearchCommand",
+          "headingSlug": "executesearchcommand",
+          "symbolId": "symbol:v1:10f48a26694e51f8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ccce8ea88ff3e528",
+          "slotId": "symbol",
+          "heading": "extractPackageFacts",
+          "headingSlug": "extractpackagefacts",
+          "symbolId": "symbol:v1:0e462345f22a22b6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e545416ac8f65a1b",
+          "slotId": "symbol",
+          "heading": "findTsconfigFiles",
+          "headingSlug": "findtsconfigfiles",
+          "symbolId": "symbol:v1:69fc00f3bac7b8da"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2a8ffb7c847651fd",
+          "slotId": "symbol",
+          "heading": "fixtureRegistry",
+          "headingSlug": "fixtureregistry",
+          "symbolId": "symbol:v1:95a9faada7ff449f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7869789bd24a551d",
+          "slotId": "symbol",
+          "heading": "generateDataSchema",
+          "headingSlug": "generatedataschema",
+          "symbolId": "symbol:v1:a385fbd689cb54d9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:428cb65cd7695d06",
+          "slotId": "symbol",
+          "heading": "generateEnvelopeSchema",
+          "headingSlug": "generateenvelopeschema",
+          "symbolId": "symbol:v1:dcd674e9d77c7b1a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:5e54ae44e4fd2781",
+          "slotId": "symbol",
+          "heading": "generationManifestSchema",
+          "headingSlug": "generationmanifestschema",
+          "symbolId": "symbol:v1:7372ef5ec3497e24"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:fae248a2c39bc739",
+          "slotId": "symbol",
+          "heading": "getCacheDir",
+          "headingSlug": "getcachedir",
+          "symbolId": "symbol:v1:40b03d7f3cabdd5f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:5c6ce1ac60ea1943",
+          "slotId": "symbol",
+          "heading": "getCliExitCodeForError",
+          "headingSlug": "getcliexitcodeforerror",
+          "symbolId": "symbol:v1:dcf0797683f0af73"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e6541d4bfba2cf76",
+          "slotId": "symbol",
+          "heading": "getConfigDir",
+          "headingSlug": "getconfigdir",
+          "symbolId": "symbol:v1:eea46191ce158771"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:5fa2098b8b7239ec",
+          "slotId": "symbol",
+          "heading": "getDataDir",
+          "headingSlug": "getdatadir",
+          "symbolId": "symbol:v1:586f8d4c4f53928b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9d8be26e8942b19d",
+          "slotId": "symbol",
+          "heading": "getHandle",
+          "headingSlug": "gethandle",
+          "symbolId": "symbol:v1:dd132bee1e17ba28"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:818686b386b57f77",
+          "slotId": "symbol",
+          "heading": "getHttpStatusForError",
+          "headingSlug": "gethttpstatusforerror",
+          "symbolId": "symbol:v1:dff8352976f1849d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:21c37d1847fa07d7",
+          "slotId": "symbol",
+          "heading": "getLogDir",
+          "headingSlug": "getlogdir",
+          "symbolId": "symbol:v1:0cfce06961b90b44"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ace7dcbf36201133",
+          "slotId": "symbol",
+          "heading": "getMeter",
+          "headingSlug": "getmeter",
+          "symbolId": "symbol:v1:809a8d5c3aadaadd"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:2e0ffe3e76c45275",
+          "slotId": "symbol",
+          "heading": "getStateDir",
+          "headingSlug": "getstatedir",
+          "symbolId": "symbol:v1:30059520db05d84f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c6c78b6db651d26d",
+          "slotId": "symbol",
+          "heading": "getTempDir",
+          "headingSlug": "gettempdir",
+          "symbolId": "symbol:v1:63805ed04828790a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4bb600baac312cad",
+          "slotId": "symbol",
+          "heading": "getTracer",
+          "headingSlug": "gettracer",
+          "symbolId": "symbol:v1:9b292e8fe6e60226"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e315679d0930d9b3",
+          "slotId": "symbol",
+          "heading": "hashFileContent",
+          "headingSlug": "hashfilecontent",
+          "symbolId": "symbol:v1:68d566db7a3dd41c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:782bf77ac3f4955e",
+          "slotId": "symbol",
+          "heading": "headingSlug",
+          "headingSlug": "headingslug",
+          "symbolId": "symbol:v1:9204cc39e31e9142"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:851632bab5bd0766",
+          "slotId": "symbol",
+          "heading": "indexSearchDocument",
+          "headingSlug": "indexsearchdocument",
+          "symbolId": "symbol:v1:464c89b3eb244488"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:133173f429362bc2",
+          "slotId": "symbol",
+          "heading": "initMigration",
+          "headingSlug": "initmigration",
+          "symbolId": "symbol:v1:470f65481ada423b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:0969605f072ec050",
+          "slotId": "symbol",
+          "heading": "insertDiagnostic",
+          "headingSlug": "insertdiagnostic",
+          "symbolId": "symbol:v1:71c6574bb7d490f8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:de78ddd7a881698a",
+          "slotId": "symbol",
+          "heading": "insertEvidence",
+          "headingSlug": "insertevidence",
+          "symbolId": "symbol:v1:d74447da337c33b2"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b922c6ef7311f3fe",
+          "slotId": "symbol",
+          "heading": "insertGeneratedDoc",
+          "headingSlug": "insertgenerateddoc",
+          "symbolId": "symbol:v1:b1c2bbcd516341b7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:174932eafd594f79",
+          "slotId": "symbol",
+          "heading": "insertLoadRun",
+          "headingSlug": "insertloadrun",
+          "symbolId": "symbol:v1:67bba6f147d4be39"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:aaf381e62912747a",
+          "slotId": "symbol",
+          "heading": "insertPackage",
+          "headingSlug": "insertpackage",
+          "symbolId": "symbol:v1:a4d80663262cfc7a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:92a0879cf7d43153",
+          "slotId": "symbol",
+          "heading": "insertPackageDependency",
+          "headingSlug": "insertpackagedependency",
+          "symbolId": "symbol:v1:ee3d761411fabe6c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1bc1857b7a555418",
+          "slotId": "symbol",
+          "heading": "insertPackageExport",
+          "headingSlug": "insertpackageexport",
+          "symbolId": "symbol:v1:43e5de1e21bda751"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f2c80d5563a6e58b",
+          "slotId": "symbol",
+          "heading": "insertProject",
+          "headingSlug": "insertproject",
+          "symbolId": "symbol:v1:2a92c3eb7ee85e1e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9ee46d3eeb3b7d4d",
+          "slotId": "symbol",
+          "heading": "insertSearchDocument",
+          "headingSlug": "insertsearchdocument",
+          "symbolId": "symbol:v1:0acf1bea1d2f46fc"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:263cccab1b8f0dae",
+          "slotId": "symbol",
+          "heading": "insertSignature",
+          "headingSlug": "insertsignature",
+          "symbolId": "symbol:v1:63dcbd0e2fe4a676"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b5c56b8daf19dccd",
+          "slotId": "symbol",
+          "heading": "insertSnapshot",
+          "headingSlug": "insertsnapshot",
+          "symbolId": "symbol:v1:2bbac6fe343c36d5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d87af1c3127f7c63",
+          "slotId": "symbol",
+          "heading": "insertSourceFile",
+          "headingSlug": "insertsourcefile",
+          "symbolId": "symbol:v1:852dbc5851e94c96"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:bc5f9c15a7623da4",
+          "slotId": "symbol",
+          "heading": "insertSourceFileVersion",
+          "headingSlug": "insertsourcefileversion",
+          "symbolId": "symbol:v1:1031d76560f7a7b8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:bab4b3488df138b3",
+          "slotId": "symbol",
+          "heading": "insertSymbol",
+          "headingSlug": "insertsymbol",
+          "symbolId": "symbol:v1:1bf0c741073dbe82"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3c380dc40d1e03ce",
+          "slotId": "symbol",
+          "heading": "isAppError",
+          "headingSlug": "isapperror",
+          "symbolId": "symbol:v1:5515c1287851c219"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:023a51de19b085a3",
+          "slotId": "symbol",
+          "heading": "isExecutableAllowed",
+          "headingSlug": "isexecutableallowed",
+          "symbolId": "symbol:v1:24fdcc0699f4ac3e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:27d047a9f9a9af07",
+          "slotId": "symbol",
+          "heading": "isPathInside",
+          "headingSlug": "ispathinside",
+          "symbolId": "symbol:v1:f9583f2ec729e995"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9c7c878fa15125cb",
+          "slotId": "symbol",
+          "heading": "isRetryableError",
+          "headingSlug": "isretryableerror",
+          "symbolId": "symbol:v1:038bcc793e74839a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:181e5a1e51c14b36",
+          "slotId": "symbol",
+          "heading": "kindOrder",
+          "headingSlug": "kindorder",
+          "symbolId": "symbol:v1:2a578867f9fea412"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3258bb0ccdf97673",
+          "slotId": "symbol",
+          "heading": "loadCommandDefinition",
+          "headingSlug": "loadcommanddefinition",
+          "symbolId": "symbol:v1:f711ae4bd5134290"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7025fe7057324689",
+          "slotId": "symbol",
+          "heading": "loadCountsSchema",
+          "headingSlug": "loadcountsschema",
+          "symbolId": "symbol:v1:89c508dc38be845b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d65083a14392e4ab",
+          "slotId": "symbol",
+          "heading": "loadDataSchema",
+          "headingSlug": "loaddataschema",
+          "symbolId": "symbol:v1:f5e36824b9aa7e2d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d518a59a043f737a",
+          "slotId": "symbol",
+          "heading": "loadEnvelopeSchema",
+          "headingSlug": "loadenvelopeschema",
+          "symbolId": "symbol:v1:caa959c0842d3765"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a931168606a2d5c2",
+          "slotId": "symbol",
+          "heading": "loadGitignorePatterns",
+          "headingSlug": "loadgitignorepatterns",
+          "symbolId": "symbol:v1:6da763dbdc3eafb7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ec21d171dca4cd83",
+          "slotId": "symbol",
+          "heading": "loadPack",
+          "headingSlug": "loadpack",
+          "symbolId": "symbol:v1:e91b33710092af4f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:cf02a2d7409d2628",
+          "slotId": "symbol",
+          "heading": "managedAll",
+          "headingSlug": "managedall",
+          "symbolId": "symbol:v1:7a1e549c1f29fa89"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:93eda87a3e0c2339",
+          "slotId": "symbol",
+          "heading": "managedGet",
+          "headingSlug": "managedget",
+          "symbolId": "symbol:v1:0c52e227be29615f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:eefce79daae89561",
+          "slotId": "symbol",
+          "heading": "managedRun",
+          "headingSlug": "managedrun",
+          "symbolId": "symbol:v1:f812a0bd8fcdae8e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:cd4e28549e8e898f",
+          "slotId": "symbol",
+          "heading": "mapErrorToExitCode",
+          "headingSlug": "maperrortoexitcode",
+          "symbolId": "symbol:v1:1cd04abea812938a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:23a9abb6c45e1b9e",
+          "slotId": "symbol",
+          "heading": "normalizeAppError",
+          "headingSlug": "normalizeapperror",
+          "symbolId": "symbol:v1:58f02132b3046e23"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:5a650a51cc1b13dc",
+          "slotId": "symbol",
+          "heading": "normalizeMarkdown",
+          "headingSlug": "normalizemarkdown",
+          "symbolId": "symbol:v1:4c0d9927fb5a4a4f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c2070d964373e8b5",
+          "slotId": "symbol",
+          "heading": "normalizeQuery",
+          "headingSlug": "normalizequery",
+          "symbolId": "symbol:v1:0c010d48ffb0158c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d25ba2ee1783f96f",
+          "slotId": "symbol",
+          "heading": "normalizeRepoRelativePath",
+          "headingSlug": "normalizereporelativepath",
+          "symbolId": "symbol:v1:f125571a6b5158c7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:be69812479739247",
+          "slotId": "symbol",
+          "heading": "normalizedTimestampForFixture",
+          "headingSlug": "normalizedtimestampforfixture",
+          "symbolId": "symbol:v1:ca87a356b269d111"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:84fce22bedb49644",
+          "slotId": "symbol",
+          "heading": "normalizedTimestampFromSnapshot",
+          "headingSlug": "normalizedtimestampfromsnapshot",
+          "symbolId": "symbol:v1:91a49915ccea8a65"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:17ed2da2b368979f",
+          "slotId": "symbol",
+          "heading": "normalizedTimestampSchema",
+          "headingSlug": "normalizedtimestampschema",
+          "symbolId": "symbol:v1:515064f9a9d8630a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c87d8a7c8d749b31",
+          "slotId": "symbol",
+          "heading": "openDataset",
+          "headingSlug": "opendataset",
+          "symbolId": "symbol:v1:5b7275b4918146b2"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:eaf40e329bd39d67",
+          "slotId": "symbol",
+          "heading": "openManagedDatabase",
+          "headingSlug": "openmanageddatabase",
+          "symbolId": "symbol:v1:bc6c765ce1f7c692"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a43a6b12e142f844",
+          "slotId": "symbol",
+          "heading": "openSqliteDatabase",
+          "headingSlug": "opensqlitedatabase",
+          "symbolId": "symbol:v1:eb5652a2cbd60549"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:303997c735725a05",
+          "slotId": "symbol",
+          "heading": "packageOverviewDtoSchema",
+          "headingSlug": "packageoverviewdtoschema",
+          "symbolId": "symbol:v1:3ef697d38ca59980"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:67447f916e13afa9",
+          "slotId": "symbol",
+          "heading": "packageSlug",
+          "headingSlug": "packageslug",
+          "symbolId": "symbol:v1:0462f865e6b495ec"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ab67aea13817565e",
+          "slotId": "symbol",
+          "heading": "parseCheckArgs",
+          "headingSlug": "parsecheckargs",
+          "symbolId": "symbol:v1:ade6efaeb4e06169"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:73092e36ac8b66cd",
+          "slotId": "symbol",
+          "heading": "parseCheckEnvelope",
+          "headingSlug": "parsecheckenvelope",
+          "symbolId": "symbol:v1:ad68319e3e9dba94"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e85b6def90f15f09",
+          "slotId": "symbol",
+          "heading": "parseGenerateArgs",
+          "headingSlug": "parsegenerateargs",
+          "symbolId": "symbol:v1:f1fd6a0ea39ae611"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:88e2a3525bea3c55",
+          "slotId": "symbol",
+          "heading": "parseGenerateEnvelope",
+          "headingSlug": "parsegenerateenvelope",
+          "symbolId": "symbol:v1:83f1e148da372a6d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b479a097807eb8fe",
+          "slotId": "symbol",
+          "heading": "parseGlobalCliOptions",
+          "headingSlug": "parseglobalclioptions",
+          "symbolId": "symbol:v1:10c7879023d4c98f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:53d1b6be5d03faf3",
+          "slotId": "symbol",
+          "heading": "parseLoadArgs",
+          "headingSlug": "parseloadargs",
+          "symbolId": "symbol:v1:b89e72b50e6e6a47"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:528426907bc22878",
+          "slotId": "symbol",
+          "heading": "parseLoadEnvelope",
+          "headingSlug": "parseloadenvelope",
+          "symbolId": "symbol:v1:531ce0255f15ba77"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b1bb93de4915545b",
+          "slotId": "symbol",
+          "heading": "parsePnpmWorkspaceYaml",
+          "headingSlug": "parsepnpmworkspaceyaml",
+          "symbolId": "symbol:v1:00e320ca58134aa3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:950fb9585f1aed18",
+          "slotId": "symbol",
+          "heading": "parseSearchArgs",
+          "headingSlug": "parsesearchargs",
+          "symbolId": "symbol:v1:b6ba793040aad8ba"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:779305861c47ffc0",
+          "slotId": "symbol",
+          "heading": "parseSearchEnvelope",
+          "headingSlug": "parsesearchenvelope",
+          "symbolId": "symbol:v1:55af461fcbf9f847"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:69ed5643455ba947",
+          "slotId": "symbol",
+          "heading": "projectAllowedKeys",
+          "headingSlug": "projectallowedkeys",
+          "symbolId": "symbol:v1:2a479015b2ee6af1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7e55265b5d0f204b",
+          "slotId": "symbol",
+          "heading": "projectDirKey",
+          "headingSlug": "projectdirkey",
+          "symbolId": "symbol:v1:7a19713cee865f9e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c4b742687f72ee4a",
+          "slotId": "symbol",
+          "heading": "rankValue",
+          "headingSlug": "rankvalue",
+          "symbolId": "symbol:v1:5d3599cc2958342b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3fd3a7f9e46b2ac3",
+          "slotId": "symbol",
+          "heading": "readBoundedTextFile",
+          "headingSlug": "readboundedtextfile",
+          "symbolId": "symbol:v1:5059c16cef40a834"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:cb8295004c1a8d29",
+          "slotId": "symbol",
+          "heading": "readPackageManifest",
+          "headingSlug": "readpackagemanifest",
+          "symbolId": "symbol:v1:99eb167ef05ac9ec"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:4c13743fb31ee775",
+          "slotId": "symbol",
+          "heading": "redactObject",
+          "headingSlug": "redactobject",
+          "symbolId": "symbol:v1:dbfde474a6b2318d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:903bdae9626eadbe",
+          "slotId": "symbol",
+          "heading": "redactProcessResult",
+          "headingSlug": "redactprocessresult",
+          "symbolId": "symbol:v1:04a988ae7a2beacc"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a6f79fb1038c6a2d",
+          "slotId": "symbol",
+          "heading": "redactText",
+          "headingSlug": "redacttext",
+          "symbolId": "symbol:v1:223ca01018c54805"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f00d35899714f18b",
+          "slotId": "symbol",
+          "heading": "redactValue",
+          "headingSlug": "redactvalue",
+          "symbolId": "symbol:v1:d170503c2ec18f66"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ec2205f4bc64d615",
+          "slotId": "symbol",
+          "heading": "resolveAppPath",
+          "headingSlug": "resolveapppath",
+          "symbolId": "symbol:v1:6bcd561f7e39f7d8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ade8a283613c89f0",
+          "slotId": "symbol",
+          "heading": "resolveAppPaths",
+          "headingSlug": "resolveapppaths",
+          "symbolId": "symbol:v1:65c7e41c265dc83e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:6ed57c46b321934b",
+          "slotId": "symbol",
+          "heading": "resolveDatasetPaths",
+          "headingSlug": "resolvedatasetpaths",
+          "symbolId": "symbol:v1:a2f7e8bcc18cea51"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:01757936283fc318",
+          "slotId": "symbol",
+          "heading": "resolveExplicitReexport",
+          "headingSlug": "resolveexplicitreexport",
+          "symbolId": "symbol:v1:334c53959025754c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:426094aed5ee6d83",
+          "slotId": "symbol",
+          "heading": "resolveSafePath",
+          "headingSlug": "resolvesafepath",
+          "symbolId": "symbol:v1:532481d8022d6571"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c0a460d0ace5fe1e",
+          "slotId": "symbol",
+          "heading": "runCheck",
+          "headingSlug": "runcheck",
+          "symbolId": "symbol:v1:e5ec99bcf88816a4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:15f4d7df89509170",
+          "slotId": "symbol",
+          "heading": "runCliCommand",
+          "headingSlug": "runclicommand",
+          "symbolId": "symbol:v1:9b1d569089e451d1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b837bdd0046bf540",
+          "slotId": "symbol",
+          "heading": "runGenerate",
+          "headingSlug": "rungenerate",
+          "symbolId": "symbol:v1:b89963d4eb2aae52"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:3fc8f27f18327f47",
+          "slotId": "symbol",
+          "heading": "runLoad",
+          "headingSlug": "runload",
+          "symbolId": "symbol:v1:024eea9c2259e468"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1ea8507eec2a9034",
+          "slotId": "symbol",
+          "heading": "runManagedMigrations",
+          "headingSlug": "runmanagedmigrations",
+          "symbolId": "symbol:v1:4ca706d87e6f3032"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:10059c52b5451a6e",
+          "slotId": "symbol",
+          "heading": "runMigrations",
+          "headingSlug": "runmigrations",
+          "symbolId": "symbol:v1:007a868f03664494"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:931c7ae005dbddb3",
+          "slotId": "symbol",
+          "heading": "runProcess",
+          "headingSlug": "runprocess",
+          "symbolId": "symbol:v1:10058ddec2b79701"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a1594f90a0ab14cd",
+          "slotId": "symbol",
+          "heading": "runProcessJson",
+          "headingSlug": "runprocessjson",
+          "symbolId": "symbol:v1:5174243b141f5896"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:93d90a22cce4e48f",
+          "slotId": "symbol",
+          "heading": "runSearch",
+          "headingSlug": "runsearch",
+          "symbolId": "symbol:v1:765e33a75986cdf4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d215c8ec5626c7e5",
+          "slotId": "symbol",
+          "heading": "safeDetailSchema",
+          "headingSlug": "safedetailschema",
+          "symbolId": "symbol:v1:374f16e0b0ee55c8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d79dcb98e700ce17",
+          "slotId": "symbol",
+          "heading": "safePositiveInt",
+          "headingSlug": "safepositiveint",
+          "symbolId": "symbol:v1:ea82bcc33b16c815"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:266058b2d6bc7015",
+          "slotId": "symbol",
+          "heading": "sanitizeBaseType",
+          "headingSlug": "sanitizebasetype",
+          "symbolId": "symbol:v1:1a313304bba1060f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c65c9baeeae6eaaa",
+          "slotId": "symbol",
+          "heading": "sanitizeClientDetail",
+          "headingSlug": "sanitizeclientdetail",
+          "symbolId": "symbol:v1:e9937f5894cbf3c8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c3af1f010109ac82",
+          "slotId": "symbol",
+          "heading": "sanitizeCode",
+          "headingSlug": "sanitizecode",
+          "symbolId": "symbol:v1:9648b550bd762bb6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:66c0c4765ebb6991",
+          "slotId": "symbol",
+          "heading": "sanitizeDiagnosticText",
+          "headingSlug": "sanitizediagnostictext",
+          "symbolId": "symbol:v1:2612586238bc7b16"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:e574865dee2d146d",
+          "slotId": "symbol",
+          "heading": "sanitizeEvidenceText",
+          "headingSlug": "sanitizeevidencetext",
+          "symbolId": "symbol:v1:831b33b392eaac43"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:394641c2da47a4d9",
+          "slotId": "symbol",
+          "heading": "sanitizeFieldViolations",
+          "headingSlug": "sanitizefieldviolations",
+          "symbolId": "symbol:v1:ae7c42cd72833eb0"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:353ae44d0e6d8cf1",
+          "slotId": "symbol",
+          "heading": "sanitizeHeaderValue",
+          "headingSlug": "sanitizeheadervalue",
+          "symbolId": "symbol:v1:21041c73d9795060"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:68487999975c7458",
+          "slotId": "symbol",
+          "heading": "sanitizeHttpStatus",
+          "headingSlug": "sanitizehttpstatus",
+          "symbolId": "symbol:v1:3c91529299c8e85d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:776ec6cd895ba911",
+          "slotId": "symbol",
+          "heading": "sanitizeLogValue",
+          "headingSlug": "sanitizelogvalue",
+          "symbolId": "symbol:v1:d8d5b20102e13449"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c420a541eaeda201",
+          "slotId": "symbol",
+          "heading": "sanitizeSignatureText",
+          "headingSlug": "sanitizesignaturetext",
+          "symbolId": "symbol:v1:94291171cd7450f5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a1e95b2d7fabe569",
+          "slotId": "symbol",
+          "heading": "sanitizeTitle",
+          "headingSlug": "sanitizetitle",
+          "symbolId": "symbol:v1:45ff1cbc6c9113d9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8ac4718a8a4189fc",
+          "slotId": "symbol",
+          "heading": "sanitizeTraceId",
+          "headingSlug": "sanitizetraceid",
+          "symbolId": "symbol:v1:a11af8b81fa0cdee"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ad40b2749119b3fd",
+          "slotId": "symbol",
+          "heading": "scanSourceFiles",
+          "headingSlug": "scansourcefiles",
+          "symbolId": "symbol:v1:334f33e79f275b0a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:0e8f53754752c22d",
+          "slotId": "symbol",
+          "heading": "searchCommandDefinition",
+          "headingSlug": "searchcommanddefinition",
+          "symbolId": "symbol:v1:5492cb82dc794c73"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:62ed2548d434ffda",
+          "slotId": "symbol",
+          "heading": "searchDataSchema",
+          "headingSlug": "searchdataschema",
+          "symbolId": "symbol:v1:bad8597f33a7727f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:738c1ab61caaf579",
+          "slotId": "symbol",
+          "heading": "searchEnvelopeSchema",
+          "headingSlug": "searchenvelopeschema",
+          "symbolId": "symbol:v1:6e1ba8ad5c907258"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:85f1c3b90588462a",
+          "slotId": "symbol",
+          "heading": "searchIndexStatusSchema",
+          "headingSlug": "searchindexstatusschema",
+          "symbolId": "symbol:v1:4aefac383e1f0669"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:31fdc144cad85d6b",
+          "slotId": "symbol",
+          "heading": "searchMatchPolicySchema",
+          "headingSlug": "searchmatchpolicyschema",
+          "symbolId": "symbol:v1:16031b70fa0e63b1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b202c1accab97231",
+          "slotId": "symbol",
+          "heading": "searchResultSchema",
+          "headingSlug": "searchresultschema",
+          "symbolId": "symbol:v1:2260b2e2e32232b3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:42db100a257f3972",
+          "slotId": "symbol",
+          "heading": "selectDiagnostic",
+          "headingSlug": "selectdiagnostic",
+          "symbolId": "symbol:v1:9b3c839bcb82b359"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:a65cb39b3552629b",
+          "slotId": "symbol",
+          "heading": "selectEvidence",
+          "headingSlug": "selectevidence",
+          "symbolId": "symbol:v1:0abfd2feb1f34cfd"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:68c1a3c46f1006bd",
+          "slotId": "symbol",
+          "heading": "selectGeneratedDoc",
+          "headingSlug": "selectgenerateddoc",
+          "symbolId": "symbol:v1:ec2aa21ef1b89642"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9a1b0c3f2a2d1fd6",
+          "slotId": "symbol",
+          "heading": "selectLoadRun",
+          "headingSlug": "selectloadrun",
+          "symbolId": "symbol:v1:ffd34d6b6651bf48"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ab0a9559d240b57b",
+          "slotId": "symbol",
+          "heading": "selectPackage",
+          "headingSlug": "selectpackage",
+          "symbolId": "symbol:v1:4c3b2af0e13a6788"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:acfe3f24b290b1eb",
+          "slotId": "symbol",
+          "heading": "selectPackageDependencies",
+          "headingSlug": "selectpackagedependencies",
+          "symbolId": "symbol:v1:fcdcf01fe4984f6e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9fee040d9c949bdb",
+          "slotId": "symbol",
+          "heading": "selectPackageExports",
+          "headingSlug": "selectpackageexports",
+          "symbolId": "symbol:v1:3a1072bdf3bc680e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:53401e937f9f6b29",
+          "slotId": "symbol",
+          "heading": "selectProject",
+          "headingSlug": "selectproject",
+          "symbolId": "symbol:v1:5a2feeae229e9a76"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:648b59ef9f02abab",
+          "slotId": "symbol",
+          "heading": "selectSearchDocument",
+          "headingSlug": "selectsearchdocument",
+          "symbolId": "symbol:v1:c5d85aed70ce5d66"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c000ccf9c8eea1d5",
+          "slotId": "symbol",
+          "heading": "selectSignature",
+          "headingSlug": "selectsignature",
+          "symbolId": "symbol:v1:cf6de6fc8491a74f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f33866aff9807d2c",
+          "slotId": "symbol",
+          "heading": "selectSnapshot",
+          "headingSlug": "selectsnapshot",
+          "symbolId": "symbol:v1:92e1435e427ac2e2"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:27db4bc852322f7e",
+          "slotId": "symbol",
+          "heading": "selectSourceFile",
+          "headingSlug": "selectsourcefile",
+          "symbolId": "symbol:v1:6e5e82f479925aa9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1ad7d37b8b287cf3",
+          "slotId": "symbol",
+          "heading": "selectSourceFileVersion",
+          "headingSlug": "selectsourcefileversion",
+          "symbolId": "symbol:v1:cf756d6b6c854272"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:530869cefc6cb898",
+          "slotId": "symbol",
+          "heading": "selectSymbol",
+          "headingSlug": "selectsymbol",
+          "symbolId": "symbol:v1:cb3d56b9d702023d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b97256ce82748532",
+          "slotId": "symbol",
+          "heading": "slugify",
+          "headingSlug": "slugify",
+          "symbolId": "symbol:v1:82bdbb127d4427cd"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:ebebc6e985bd4239",
+          "slotId": "symbol",
+          "heading": "snapshotAndValidateProcessCommand",
+          "headingSlug": "snapshotandvalidateprocesscommand",
+          "symbolId": "symbol:v1:eeb7be44dfaef942"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:43758d38a8f54f2a",
+          "slotId": "symbol",
+          "heading": "snapshotAndValidateProcessRunnerPolicy",
+          "headingSlug": "snapshotandvalidateprocessrunnerpolicy",
+          "symbolId": "symbol:v1:c06066bcf6dfca16"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:f8ad4f29553fea2e",
+          "slotId": "symbol",
+          "heading": "sourceRefSchema",
+          "headingSlug": "sourcerefschema",
+          "symbolId": "symbol:v1:d755be28a06d7255"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:7731f9c5b8090645",
+          "slotId": "symbol",
+          "heading": "spawnProcess",
+          "headingSlug": "spawnprocess",
+          "symbolId": "symbol:v1:c2c823eb5438d6f1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d07d501c2d3aa925",
+          "slotId": "symbol",
+          "heading": "splitIdentifier",
+          "headingSlug": "splitidentifier",
+          "symbolId": "symbol:v1:8ff9f37f2d11110f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:72fc6e2b4b433ba0",
+          "slotId": "symbol",
+          "heading": "startSpan",
+          "headingSlug": "startspan",
+          "symbolId": "symbol:v1:4fa8ceb1f6ec937e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:559d53468dfbd42c",
+          "slotId": "symbol",
+          "heading": "summarizeGitState",
+          "headingSlug": "summarizegitstate",
+          "symbolId": "symbol:v1:8333e3d8769822a1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8d0778b9e353c173",
+          "slotId": "symbol",
+          "heading": "summarizeTimings",
+          "headingSlug": "summarizetimings",
+          "symbolId": "symbol:v1:a0103d84e6c1ba3f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:509ad322a2bef26d",
+          "slotId": "symbol",
+          "heading": "templateFileSchema",
+          "headingSlug": "templatefileschema",
+          "symbolId": "symbol:v1:eb87265eb90c0ef0"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:9252afbc4cad2526",
+          "slotId": "symbol",
+          "heading": "templatePackManifestSchema",
+          "headingSlug": "templatepackmanifestschema",
+          "symbolId": "symbol:v1:56fb8a73d66d3a87"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:cb3219e80fa5857d",
+          "slotId": "symbol",
+          "heading": "toProblemDetails",
+          "headingSlug": "toproblemdetails",
+          "symbolId": "symbol:v1:876dfdc7f5d8dc62"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c6de3620d869e69f",
+          "slotId": "symbol",
+          "heading": "toSafeError",
+          "headingSlug": "tosafeerror",
+          "symbolId": "symbol:v1:3b45dafcb1bb86d8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:af6be7bcc150fb3f",
+          "slotId": "symbol",
+          "heading": "truncateHash",
+          "headingSlug": "truncatehash",
+          "symbolId": "symbol:v1:e37474a2eb2122ac"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:c0b5eb5d95b5ebb6",
+          "slotId": "symbol",
+          "heading": "validateAppName",
+          "headingSlug": "validateappname",
+          "symbolId": "symbol:v1:3808cebba6613d45"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:265c7a327ef68e13",
+          "slotId": "symbol",
+          "heading": "validateCommandEnv",
+          "headingSlug": "validatecommandenv",
+          "symbolId": "symbol:v1:291241e4cfe4cff8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:531b22c0e2d86019",
+          "slotId": "symbol",
+          "heading": "validateGeneratedDoc",
+          "headingSlug": "validategenerateddoc",
+          "symbolId": "symbol:v1:9b27a905e276b2fb"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:1f594cab78246511",
+          "slotId": "symbol",
+          "heading": "validateIdentifier",
+          "headingSlug": "validateidentifier",
+          "symbolId": "symbol:v1:e09da7982093eef7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:bd3b8dc73989df91",
+          "slotId": "symbol",
+          "heading": "validateOutboundUrl",
+          "headingSlug": "validateoutboundurl",
+          "symbolId": "symbol:v1:7d08958c1371aa9b"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:8a3543d16d6fb8f3",
+          "slotId": "symbol",
+          "heading": "validatePolicy",
+          "headingSlug": "validatepolicy",
+          "symbolId": "symbol:v1:d970da6c1127f9e5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:74a8fc1b9182b5e8",
+          "slotId": "symbol",
+          "heading": "validateProcessCommand",
+          "headingSlug": "validateprocesscommand",
+          "symbolId": "symbol:v1:f706d91e2370e4e2"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:74b4d9d0f166e9a7",
+          "slotId": "symbol",
+          "heading": "validateProcessRunnerPolicy",
+          "headingSlug": "validateprocessrunnerpolicy",
+          "symbolId": "symbol:v1:65e358db0fb53601"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:52475807feb4a866",
+          "slotId": "symbol",
+          "heading": "validateProfileName",
+          "headingSlug": "validateprofilename",
+          "symbolId": "symbol:v1:cca7b2292b99899a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:902d87d4f87f9315",
+          "slotId": "symbol",
+          "heading": "validateSourceFilePolicy",
+          "headingSlug": "validatesourcefilepolicy",
+          "symbolId": "symbol:v1:2b64c1bd805e4608"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:b51cf2dfe6a171c1",
+          "slotId": "symbol",
+          "heading": "validateWritePlan",
+          "headingSlug": "validatewriteplan",
+          "symbolId": "symbol:v1:ea579e87dada567c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:40faad8db429db62",
+          "slotId": "symbol",
+          "heading": "withDatasetTransaction",
+          "headingSlug": "withdatasettransaction",
+          "symbolId": "symbol:v1:cdb64b8fedb0b4da"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:98ea8b300c4be35f",
+          "slotId": "symbol",
+          "heading": "withErrorCause",
+          "headingSlug": "witherrorcause",
+          "symbolId": "symbol:v1:ca03bd3bd7f90b95"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:d7d19b0925687de1",
+          "slotId": "symbol",
+          "heading": "withManagedTransaction",
+          "headingSlug": "withmanagedtransaction",
+          "symbolId": "symbol:v1:e9bfd403b5a30ce4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:05bd5b4477d134c7",
+          "slotId": "symbol",
+          "heading": "withTransaction",
+          "headingSlug": "withtransaction",
+          "symbolId": "symbol:v1:3396116b5ebacdba"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:symbol:dede45d56bc64b96",
+          "slotId": "symbol",
+          "heading": "writeCliResult",
+          "headingSlug": "writecliresult",
+          "symbolId": "symbol:v1:114cc7c9e599a424"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:748940b8bad9b088:evidence",
+          "slotId": "evidence",
+          "heading": "Sources Used",
+          "headingSlug": "sources-used"
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}

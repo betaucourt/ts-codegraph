@@ -1,0 +1,303 @@
+{
+  "manifestId": "manifest:v1:f998546f516ea28d",
+  "snapshotId": "snapshot:v1:project:v1:7587815a6db86532:worktree:eb35fbb8196f49ba24df029faad6ec0236fc98b9d8d7243b7456506f3e1e9faf",
+  "datasetSchemaVersion": "ts-codegraph.dataset@1",
+  "templatePack": {
+    "packName": "all",
+    "packVersion": "1.0.0"
+  },
+  "documents": [
+    {
+      "docId": "generated-doc:v1:9345ecb371e2b687",
+      "templateId": "package-overview",
+      "templateVersion": "1.0.0",
+      "conceptPath": "packages/codegraph-errors/overview.md",
+      "contentHash": "sha256:276131775a2c87631f561814680f18743deb32064a83c4f05ffa52377d6b692a",
+      "sections": [
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:9345ecb371e2b687:objective",
+          "slotId": "objective",
+          "heading": "Objective",
+          "headingSlug": "objective"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:9345ecb371e2b687:exports",
+          "slotId": "exports",
+          "heading": "Exports",
+          "headingSlug": "exports"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:9345ecb371e2b687:dependencies",
+          "slotId": "dependencies",
+          "heading": "Dependencies",
+          "headingSlug": "dependencies"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:9345ecb371e2b687:evidence",
+          "slotId": "evidence",
+          "heading": "Sources Used",
+          "headingSlug": "sources-used"
+        }
+      ]
+    },
+    {
+      "docId": "generated-doc:v1:68f51fc9e1d1258b",
+      "templateId": "api-reference",
+      "templateVersion": "1.0.0",
+      "conceptPath": "packages/codegraph-errors/api-reference.md",
+      "contentHash": "sha256:c60b6e36bce166564befa7b3fb6ef1ec2b53391093ec72472d019704b842ef44",
+      "sections": [
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:objective",
+          "slotId": "objective",
+          "heading": "Objective",
+          "headingSlug": "objective"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbols",
+          "slotId": "symbols",
+          "heading": "API",
+          "headingSlug": "api"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:42627b4b301be323",
+          "slotId": "symbol",
+          "heading": "APP_ERROR_CATEGORIES",
+          "headingSlug": "app-error-categories",
+          "symbolId": "symbol:v1:553d5dcb13e39121"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:17be3d1360ae92be",
+          "slotId": "symbol",
+          "heading": "AppError",
+          "headingSlug": "apperror",
+          "symbolId": "symbol:v1:8588660d9e6c94f5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:b8c9a64356c459f2",
+          "slotId": "symbol",
+          "heading": "AppErrorAttributes",
+          "headingSlug": "apperrorattributes",
+          "symbolId": "symbol:v1:8ffcec03134d8dec"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:297d34635d2a1cae",
+          "slotId": "symbol",
+          "heading": "AppErrorCategory",
+          "headingSlug": "apperrorcategory",
+          "symbolId": "symbol:v1:4e01c98720f19c43"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:976e9106e63da258",
+          "slotId": "symbol",
+          "heading": "AppErrorCode",
+          "headingSlug": "apperrorcode",
+          "symbolId": "symbol:v1:ce16774de178eff4"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:9cbbe80d2e064bde",
+          "slotId": "symbol",
+          "heading": "AppErrorOptions",
+          "headingSlug": "apperroroptions",
+          "symbolId": "symbol:v1:f8b4372e541fc7ce"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:0dfcc29280eec14a",
+          "slotId": "symbol",
+          "heading": "ENTITY_IDS",
+          "headingSlug": "entity-ids",
+          "symbolId": "symbol:v1:f811b0c7fe655595"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:98991ec5539da607",
+          "slotId": "symbol",
+          "heading": "ERROR_CODES",
+          "headingSlug": "error-codes",
+          "symbolId": "symbol:v1:ca96c19a020c17e7"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:e2e114b120e22c03",
+          "slotId": "symbol",
+          "heading": "EntityId",
+          "headingSlug": "entityid",
+          "symbolId": "symbol:v1:0ce20deeb999096d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:f04efd07268a46be",
+          "slotId": "symbol",
+          "heading": "ErrorCode",
+          "headingSlug": "errorcode",
+          "symbolId": "symbol:v1:e046c0c82367f51c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:b394f002094be058",
+          "slotId": "symbol",
+          "heading": "ErrorCodeMeta",
+          "headingSlug": "errorcodemeta",
+          "symbolId": "symbol:v1:c4928f57c6e4fcf1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:5470ab57b33ef22c",
+          "slotId": "symbol",
+          "heading": "ErrorRegistry",
+          "headingSlug": "errorregistry",
+          "symbolId": "symbol:v1:08a14edc99825804"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:70f3c0ebdab45f99",
+          "slotId": "symbol",
+          "heading": "FieldViolation",
+          "headingSlug": "fieldviolation",
+          "symbolId": "symbol:v1:6d58db4bd60cb4f5"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:c2fdc989a95358da",
+          "slotId": "symbol",
+          "heading": "ProblemDetails",
+          "headingSlug": "problemdetails",
+          "symbolId": "symbol:v1:00be6fad715f2e60"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:3e7621ff6ce095de",
+          "slotId": "symbol",
+          "heading": "SafeError",
+          "headingSlug": "safeerror",
+          "symbolId": "symbol:v1:bd8f22dd553789be"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:ae1a0206f5a6603d",
+          "slotId": "symbol",
+          "heading": "ToProblemDetailsOptions",
+          "headingSlug": "toproblemdetailsoptions",
+          "symbolId": "symbol:v1:bde45325e5fd7fb1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:b2d2579a28033d79",
+          "slotId": "symbol",
+          "heading": "createAppError",
+          "headingSlug": "createapperror",
+          "symbolId": "symbol:v1:21e42351c6c15bde"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:dd6f1f608f527998",
+          "slotId": "symbol",
+          "heading": "createErrorRegistry",
+          "headingSlug": "createerrorregistry",
+          "symbolId": "symbol:v1:ec8e4bae22855369"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:43f7dbeb7e3869e9",
+          "slotId": "symbol",
+          "heading": "getCliExitCodeForError",
+          "headingSlug": "getcliexitcodeforerror",
+          "symbolId": "symbol:v1:c0bcd47f5d7cfe11"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:a7cd8c9efd5ae1c8",
+          "slotId": "symbol",
+          "heading": "getHttpStatusForError",
+          "headingSlug": "gethttpstatusforerror",
+          "symbolId": "symbol:v1:ec3fa55d0823b2a6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:323be31eab7502fa",
+          "slotId": "symbol",
+          "heading": "isAppError",
+          "headingSlug": "isapperror",
+          "symbolId": "symbol:v1:c7a0fd1e9638f333"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:79cc1af04918360a",
+          "slotId": "symbol",
+          "heading": "isRetryableError",
+          "headingSlug": "isretryableerror",
+          "symbolId": "symbol:v1:1d2906b34a5d6e4f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:dd7b4a528a442a63",
+          "slotId": "symbol",
+          "heading": "normalizeAppError",
+          "headingSlug": "normalizeapperror",
+          "symbolId": "symbol:v1:3469ec7044d6ca95"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:29f3633722a24f26",
+          "slotId": "symbol",
+          "heading": "sanitizeBaseType",
+          "headingSlug": "sanitizebasetype",
+          "symbolId": "symbol:v1:66b439caf21767e6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:252c0389240528d8",
+          "slotId": "symbol",
+          "heading": "sanitizeClientDetail",
+          "headingSlug": "sanitizeclientdetail",
+          "symbolId": "symbol:v1:0a3d66b151945c85"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:69ed7c820fdb2f7f",
+          "slotId": "symbol",
+          "heading": "sanitizeCode",
+          "headingSlug": "sanitizecode",
+          "symbolId": "symbol:v1:dfa2494217c1ee76"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:bc4bc719ee74bf6e",
+          "slotId": "symbol",
+          "heading": "sanitizeFieldViolations",
+          "headingSlug": "sanitizefieldviolations",
+          "symbolId": "symbol:v1:211f024728e15bad"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:140e26a8e5b4c498",
+          "slotId": "symbol",
+          "heading": "sanitizeHttpStatus",
+          "headingSlug": "sanitizehttpstatus",
+          "symbolId": "symbol:v1:ae3ec16093a3b0bc"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:ba8c530ad2febbda",
+          "slotId": "symbol",
+          "heading": "sanitizeTitle",
+          "headingSlug": "sanitizetitle",
+          "symbolId": "symbol:v1:6c11c2b5fb4c0202"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:b94d38dcdc65f7f1",
+          "slotId": "symbol",
+          "heading": "sanitizeTraceId",
+          "headingSlug": "sanitizetraceid",
+          "symbolId": "symbol:v1:7ac909e70ee1182d"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:fe6f7b3296269c48",
+          "slotId": "symbol",
+          "heading": "toProblemDetails",
+          "headingSlug": "toproblemdetails",
+          "symbolId": "symbol:v1:e1db12f63a8e2cf9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:875f7bf4b292c49b",
+          "slotId": "symbol",
+          "heading": "toSafeError",
+          "headingSlug": "tosafeerror",
+          "symbolId": "symbol:v1:abcde4938ba0b155"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:symbol:39aa0be8ec754d0d",
+          "slotId": "symbol",
+          "heading": "withErrorCause",
+          "headingSlug": "witherrorcause",
+          "symbolId": "symbol:v1:78ac4c7be4201da3"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:68f51fc9e1d1258b:evidence",
+          "slotId": "evidence",
+          "heading": "Sources Used",
+          "headingSlug": "sources-used"
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}

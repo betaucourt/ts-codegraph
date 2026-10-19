@@ -1,0 +1,14 @@
+{
+  "packName": "api-reference",
+  "packVersion": "1.0.0",
+  "slotIds": ["objective", "symbols", "symbol", "diagnostics", "evidence"],
+  "requiredFacts": ["pkg", "project", "repository", "symbols"],
+  "optionalFacts": ["diagnostics", "evidence"],
+  "templateFiles": [
+    {
+      "templateId": "api-reference",
+      "path": "api-reference.hbs",
+      "outputPattern": "packages/{slug}/api-reference.md"
+    }
+  ]
+}

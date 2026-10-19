@@ -1,0 +1,20 @@
+[
+  {
+    "target": "@codegraph/errors",
+    "medianMs": 481.89,
+    "p95Ms": 519.62,
+    "runs": 3,
+    "node": "v22.22.1",
+    "tsMorph": "26.0.0",
+    "datasetSchema": "ts-codegraph.dataset@1"
+  },
+  {
+    "target": "fixture-load-tiny",
+    "medianMs": 316.61,
+    "p95Ms": 599.64,
+    "runs": 3,
+    "node": "v22.22.1",
+    "tsMorph": "26.0.0",
+    "datasetSchema": "ts-codegraph.dataset@1"
+  }
+]

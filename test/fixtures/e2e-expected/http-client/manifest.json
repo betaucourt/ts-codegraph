@@ -1,0 +1,268 @@
+{
+  "manifestId": "manifest:v1:d7b20180d0737cb2",
+  "snapshotId": "snapshot:v1:project:v1:f9954c252c535953:worktree:4b437bdb10ad7d1cd6adbf417b756baa35d9c72236d4badc3ae2dee8a85684d2",
+  "datasetSchemaVersion": "ts-codegraph.dataset@1",
+  "templatePack": {
+    "packName": "all",
+    "packVersion": "1.0.0"
+  },
+  "documents": [
+    {
+      "docId": "generated-doc:v1:b758bef2a7c7760d",
+      "templateId": "package-overview",
+      "templateVersion": "1.0.0",
+      "conceptPath": "packages/codegraph-http-client/overview.md",
+      "contentHash": "sha256:e0649043e3c8921060c7e4b30d6c32f2a9396a1871d839a31c041c4c063be9a4",
+      "sections": [
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:b758bef2a7c7760d:objective",
+          "slotId": "objective",
+          "heading": "Objective",
+          "headingSlug": "objective"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:b758bef2a7c7760d:exports",
+          "slotId": "exports",
+          "heading": "Exports",
+          "headingSlug": "exports"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:b758bef2a7c7760d:dependencies",
+          "slotId": "dependencies",
+          "heading": "Dependencies",
+          "headingSlug": "dependencies"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:b758bef2a7c7760d:evidence",
+          "slotId": "evidence",
+          "heading": "Sources Used",
+          "headingSlug": "sources-used"
+        }
+      ]
+    },
+    {
+      "docId": "generated-doc:v1:e5fe64d630fb7f86",
+      "templateId": "api-reference",
+      "templateVersion": "1.0.0",
+      "conceptPath": "packages/codegraph-http-client/api-reference.md",
+      "contentHash": "sha256:0a87df652c6df7de46eaa9be2752cd6dfa88b20635f288430e2bf2c8377b648e",
+      "sections": [
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:objective",
+          "slotId": "objective",
+          "heading": "Objective",
+          "headingSlug": "objective"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbols",
+          "slotId": "symbols",
+          "heading": "API",
+          "headingSlug": "api"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:acec5dd7a1c24938",
+          "slotId": "symbol",
+          "heading": "AttributeName",
+          "headingSlug": "attributename",
+          "symbolId": "symbol:v1:e5da6cbecb17fc7e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:a5bdc9919f625788",
+          "slotId": "symbol",
+          "heading": "DEFAULT_POLICY",
+          "headingSlug": "default-policy",
+          "symbolId": "symbol:v1:d38f030d81cd95c6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:8b03d50d12104235",
+          "slotId": "symbol",
+          "heading": "ENTITY_IDS",
+          "headingSlug": "entity-ids",
+          "symbolId": "symbol:v1:d423e153c445ada6"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:3703f1815fa0b3c8",
+          "slotId": "symbol",
+          "heading": "ERROR_CODES",
+          "headingSlug": "error-codes",
+          "symbolId": "symbol:v1:ead3b84b0810af45"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:e4429279f1a221b6",
+          "slotId": "symbol",
+          "heading": "EntityId",
+          "headingSlug": "entityid",
+          "symbolId": "symbol:v1:027d9c101c2a3038"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:a116e04e37bc9f41",
+          "slotId": "symbol",
+          "heading": "ErrorCode",
+          "headingSlug": "errorcode",
+          "symbolId": "symbol:v1:0a6d7248daef33ec"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:41cce341cfbb32f5",
+          "slotId": "symbol",
+          "heading": "HttpClient",
+          "headingSlug": "httpclient",
+          "symbolId": "symbol:v1:354d462467adfc2e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:832c61d5f0112667",
+          "slotId": "symbol",
+          "heading": "HttpClientPolicy",
+          "headingSlug": "httpclientpolicy",
+          "symbolId": "symbol:v1:e742ee41c1a980d8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:02bf3e742c9ca6e8",
+          "slotId": "symbol",
+          "heading": "HttpClientRequest",
+          "headingSlug": "httpclientrequest",
+          "symbolId": "symbol:v1:f669a32c558e1458"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:8d97383f23aa5c7c",
+          "slotId": "symbol",
+          "heading": "HttpClientResult",
+          "headingSlug": "httpclientresult",
+          "symbolId": "symbol:v1:6795adc42aa8f8cf"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:51418d0c4af17125",
+          "slotId": "symbol",
+          "heading": "HttpClientRetryPolicy",
+          "headingSlug": "httpclientretrypolicy",
+          "symbolId": "symbol:v1:485930a398af80c1"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:fc32e7975c359949",
+          "slotId": "symbol",
+          "heading": "HttpMethod",
+          "headingSlug": "httpmethod",
+          "symbolId": "symbol:v1:3ada8179dae142a8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:d6f6c1688d886a75",
+          "slotId": "symbol",
+          "heading": "MAX_REDIRECTS",
+          "headingSlug": "max-redirects",
+          "symbolId": "symbol:v1:f8364f90ac0a793c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:35fc1fcbcc7814e9",
+          "slotId": "symbol",
+          "heading": "MAX_RETRY_ATTEMPTS",
+          "headingSlug": "max-retry-attempts",
+          "symbolId": "symbol:v1:251872f4696906d8"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:8826258be8e0aca5",
+          "slotId": "symbol",
+          "heading": "MAX_TIMEOUT_MS",
+          "headingSlug": "max-timeout-ms",
+          "symbolId": "symbol:v1:785f3514fbf40cea"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:51bb7ba20818f4e0",
+          "slotId": "symbol",
+          "heading": "MIN_REDIRECTS",
+          "headingSlug": "min-redirects",
+          "symbolId": "symbol:v1:5eee6f10a9f0890e"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:4e39af3220613d03",
+          "slotId": "symbol",
+          "heading": "MIN_RETRY_ATTEMPTS",
+          "headingSlug": "min-retry-attempts",
+          "symbolId": "symbol:v1:650073a3789ac676"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:db63cd1aa4f5a397",
+          "slotId": "symbol",
+          "heading": "MIN_TIMEOUT_MS",
+          "headingSlug": "min-timeout-ms",
+          "symbolId": "symbol:v1:2713cc1400672302"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:f0bccdf40df253ca",
+          "slotId": "symbol",
+          "heading": "MetricName",
+          "headingSlug": "metricname",
+          "symbolId": "symbol:v1:b3e8c48fdf815cd9"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:027479b160e10c2a",
+          "slotId": "symbol",
+          "heading": "SpanName",
+          "headingSlug": "spanname",
+          "symbolId": "symbol:v1:24658dbf3acc8f23"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:e27d2b078c6e3a0b",
+          "slotId": "symbol",
+          "heading": "TELEMETRY_ATTRIBUTES",
+          "headingSlug": "telemetry-attributes",
+          "symbolId": "symbol:v1:47850c9c7c60f2af"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:b3d04c547d3586df",
+          "slotId": "symbol",
+          "heading": "TELEMETRY_METRICS",
+          "headingSlug": "telemetry-metrics",
+          "symbolId": "symbol:v1:dc3a42194a1f7678"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:cd5c5a25f8e30c3a",
+          "slotId": "symbol",
+          "heading": "TELEMETRY_SPANS",
+          "headingSlug": "telemetry-spans",
+          "symbolId": "symbol:v1:ed575d482f9cad42"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:e9b759d8aa71743a",
+          "slotId": "symbol",
+          "heading": "createHttpClient",
+          "headingSlug": "createhttpclient",
+          "symbolId": "symbol:v1:ed1ba9855df02b92"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:b1315df3b3aeb0bf",
+          "slotId": "symbol",
+          "heading": "requestJson",
+          "headingSlug": "requestjson",
+          "symbolId": "symbol:v1:b3dd9762b5107adf"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:72f0b3fb746fb4a9",
+          "slotId": "symbol",
+          "heading": "requestText",
+          "headingSlug": "requesttext",
+          "symbolId": "symbol:v1:237bf955f86f5930"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:0d534ce434b3bb8d",
+          "slotId": "symbol",
+          "heading": "snapshotAndResolvePolicy",
+          "headingSlug": "snapshotandresolvepolicy",
+          "symbolId": "symbol:v1:f0e8041677df4e8f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:symbol:70c3f8aff8dbd1ca",
+          "slotId": "symbol",
+          "heading": "validateHttpClientPolicy",
+          "headingSlug": "validatehttpclientpolicy",
+          "symbolId": "symbol:v1:ccf45e6172c9565c"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:e5fe64d630fb7f86:evidence",
+          "slotId": "evidence",
+          "heading": "Sources Used",
+          "headingSlug": "sources-used"
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}

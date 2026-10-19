@@ -1,0 +1,14 @@
+{
+  "packName": "package-overview",
+  "packVersion": "1.0.0",
+  "slotIds": ["objective", "exports", "dependencies", "diagnostics", "evidence"],
+  "requiredFacts": ["pkg", "project", "repository"],
+  "optionalFacts": ["exports", "dependencies", "diagnostics", "evidence"],
+  "templateFiles": [
+    {
+      "templateId": "package-overview",
+      "path": "overview.hbs",
+      "outputPattern": "packages/{slug}/overview.md"
+    }
+  ]
+}

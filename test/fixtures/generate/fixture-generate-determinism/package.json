@@ -1,0 +1,15 @@
+{
+  "name": "@fixture/gen-determinism",
+  "version": "2.0.1",
+  "private": true,
+  "dependencies": {
+    "@fixture/dep-a": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./math": "./dist/math.js"
+  }
+}

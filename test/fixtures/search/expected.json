@@ -1,0 +1,50 @@
+{
+  "note": "Committed expected search outputs over fixture-search (loaded, plus one seeded diagnostic LOAD_ID_COLLISION). IDs are deterministic Step 02 builder outputs; order is exact.",
+  "queries": {
+    "exact": {
+      "query": "AppError",
+      "results": [
+        { "id": "symbol:v1:0b7aa26f7c072e33", "kind": "symbol", "label": "AppError", "rank": 3, "matchReasons": ["exact_label", "symbol_token"] }
+      ]
+    },
+    "prefix": {
+      "query": "create",
+      "results": [
+        { "id": "symbol:v1:1115d803ff5e50f2", "kind": "symbol", "label": "createWidget", "rank": 2, "matchReasons": ["prefix_label", "symbol_token"] }
+      ]
+    },
+    "identifier-token": {
+      "query": "Widget",
+      "results": [
+        { "id": "symbol:v1:1115d803ff5e50f2", "kind": "symbol", "label": "createWidget", "rank": 1, "matchReasons": ["symbol_token"] }
+      ]
+    },
+    "scoped-package": {
+      "query": "@fixture/search-tiny",
+      "results": [
+        { "id": "package:v1:1d8b991e0349b7d0", "kind": "package", "label": "@fixture/search-tiny", "rank": 3, "matchReasons": ["exact_label", "package_name"] },
+        { "id": "symbol:v1:938e0d9cb8ce91be", "kind": "symbol", "label": "VERSION", "rank": 1, "matchReasons": ["symbol_token"] },
+        { "id": "symbol:v1:0b7aa26f7c072e33", "kind": "symbol", "label": "AppError", "rank": 1, "matchReasons": ["symbol_token"] },
+        { "id": "symbol:v1:0d18153c58a2edcd", "kind": "symbol", "label": "RenderMode", "rank": 1, "matchReasons": ["symbol_token"] },
+        { "id": "symbol:v1:1115d803ff5e50f2", "kind": "symbol", "label": "createWidget", "rank": 1, "matchReasons": ["symbol_token"] },
+        { "id": "symbol:v1:183b6e4a5f684bc8", "kind": "symbol", "label": "HttpClient", "rank": 1, "matchReasons": ["symbol_token"] }
+      ]
+    },
+    "file-fragment": {
+      "query": "api",
+      "results": [
+        { "id": "source-file:v1:858a24c7f32ee972", "kind": "file", "label": "src/api.ts", "rank": 1, "matchReasons": ["file_path"] }
+      ]
+    },
+    "diagnostic-code": {
+      "query": "LOAD_ID_COLLISION",
+      "results": [
+        { "id": "diagnostic:v1:1fe266b5c05bb33a", "kind": "diagnostic", "label": "LOAD_ID_COLLISION", "rank": 3, "matchReasons": ["diagnostic_code", "exact_label"] }
+      ]
+    },
+    "empty": {
+      "query": "zzznotfound",
+      "results": []
+    }
+  }
+}

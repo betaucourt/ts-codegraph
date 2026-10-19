@@ -1,0 +1,8 @@
+{
+  "name": "@fixture/gen-no-symbols",
+  "version": "0.0.1",
+  "private": true,
+  "exports": {
+    ".": "./dist/index.js"
+  }
+}

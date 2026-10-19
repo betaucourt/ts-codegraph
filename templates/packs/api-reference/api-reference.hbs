@@ -1,0 +1,46 @@
+# {{pkg.name}} — API Reference
+
+## Objective
+
+Public API surface for `{{pkg.name}}` in project `{{project.name}}`.
+
+## API
+
+### Quick Navigation
+
+| Symbol | Kind | Source Location |
+| :--- | :---: | :--- |
+{{#each symbols.items}}
+| [{{this.name}}](#{{this.name}}) | `{{this.kind}}` | `{{this.sourceRef.path}}:{{this.sourceRef.startLine}}` |
+{{/each}}
+
+---
+
+{{#each symbols.items}}
+### {{this.name}}
+
+- **Kind**: `{{this.kind}}`
+- **Source**: `{{this.sourceRef.path}}:{{this.sourceRef.startLine}}`
+
+```ts
+{{this.signatureText}}
+```
+{{#if this.evidence.present}}
+
+{{this.evidence.text}}
+{{/if}}
+
+{{/each}}
+{{#if diagnostics.present}}
+## Diagnostics
+
+{{#each diagnostics.items}}
+- **{{this.severity}}** `{{this.code}}`: {{this.message}}
+{{/each}}
+
+{{/if}}
+## Sources Used
+
+{{#each symbols.items}}
+- `{{this.name}}` — `{{this.sourceRef.path}}:{{this.sourceRef.startLine}}`
+{{/each}}

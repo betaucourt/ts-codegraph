@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.opacity-dts/
+coverage/
+*.log
+.DS_Store

@@ -1,0 +1,68 @@
+# {{pkg.name}} — Package Overview
+
+## Objective
+
+`{{pkg.name}}` is a package in project `{{project.name}}`.{{#if pkg.hasDescription}} {{pkg.description}}{{/if}}
+
+## Architecture & Surface Metrics
+
+| Metric | Value | Provenance |
+| :--- | :---: | :--- |
+| **Exported Surface** | `{{exports.items.length}}` files | Verified package entry points |
+| **Public Symbols** | `{{symbols.items.length}}` declarations | Syntax-first AST extraction |
+| **Dependencies** | `{{pkg.dependencies.length}}` packages | `package.json` manifest |
+| **Evidence Records** | `{{evidence.items.length}}` JSDoc blocks | AST comment provenance |
+
+```mermaid
+flowchart TD
+    PKG["{{pkg.name}}"]
+{{#if pkg.dependencies.length}}
+    subgraph DEPS["Dependencies ({{pkg.dependencies.length}})"]
+{{#each pkg.dependencies}}
+        D_{{@index}}["{{this.name}} ({{this.kind}})"]
+{{/each}}
+    end
+    DEPS --> PKG
+{{/if}}
+{{#if exports.present}}
+    subgraph EXPORTS["Exported Entry Points ({{exports.items.length}})"]
+{{#each exports.items}}
+        E_{{@index}}["{{this.exportPath}}"]
+{{/each}}
+    end
+    PKG --> EXPORTS
+{{/if}}
+```
+
+{{#if exports.present}}
+## Exports
+
+{{#each exports.items}}
+- `{{this.exportPath}}`
+{{/each}}
+
+{{/if}}
+{{#if pkg.dependencies.length}}
+## Dependencies
+
+{{#each pkg.dependencies}}
+- `{{this.name}}`{{#if this.hasVersionRange}} (`{{this.versionRange}}`){{/if}} — {{this.kind}}
+{{/each}}
+
+{{/if}}
+{{#if diagnostics.present}}
+## Diagnostics
+
+{{#each diagnostics.items}}
+- **{{this.severity}}** `{{this.code}}`: {{this.message}}
+{{/each}}
+
+{{/if}}
+## Sources Used
+
+- Package manifest `{{pkg.manifestPath}}` at snapshot `{{repository.snapshotId}}`.
+{{#if evidence.present}}
+{{#each evidence.items}}
+- `{{this.symbolName}}` ({{this.kind}}) — documentation evidence.
+{{/each}}
+{{/if}}

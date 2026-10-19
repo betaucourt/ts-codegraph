@@ -1,0 +1,610 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ts-codegraph.local/contracts/ts-codegraph.generate@1.schema.json",
+  "title": "ts-codegraph generate envelope",
+  "type": "object",
+  "properties": {
+    "ok": {
+      "type": "boolean"
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "enum": [
+              "CHECK_ENVELOPE_INVALID",
+              "CHECK_PROJECT_NOT_FOUND",
+              "CHECK_PROJECT_UNREADABLE",
+              "CHECK_PROJECT_UNSAFE",
+              "CHECK_PACKAGE_MANIFEST_MISSING",
+              "CHECK_TSCONFIG_MISSING",
+              "CHECK_GIT_UNAVAILABLE",
+              "CHECK_TRAVERSAL_POLICY_INVALID",
+              "CHECK_DATASET_MISSING",
+              "CHECK_DATASET_UNREADABLE",
+              "CHECK_DATASET_UNHEALTHY",
+              "CHECK_TEMPLATE_PACK_MISSING",
+              "CHECK_TEMPLATE_PACK_INVALID",
+              "CHECK_OUTPUT_NOT_WRITABLE",
+              "CHECK_OUTPUT_UNSAFE",
+              "LOAD_ENVELOPE_INVALID",
+              "SEARCH_ENVELOPE_INVALID",
+              "GENERATE_ENVELOPE_INVALID",
+              "GENERATE_REQUIRED_FACT_MISSING",
+              "GENERATE_DTO_INVALID",
+              "GENERATE_OUTPUT_REQUIRED",
+              "GENERATE_DATASET_MISSING",
+              "OKF_TYPE_MISSING",
+              "OKF_TITLE_MISSING",
+              "OKF_DESCRIPTION_MISSING",
+              "OKF_RESOURCE_MISSING",
+              "OKF_TAGS_MISSING",
+              "OKF_TIMESTAMP_MISSING",
+              "OKF_GENERATED_BY_MISSING",
+              "OKF_SCHEMA_VERSION_MISSING",
+              "OKF_SOURCE_SNAPSHOT_MISSING",
+              "OKF_TEMPLATE_ID_MISSING",
+              "OKF_TEMPLATE_VERSION_MISSING",
+              "OKF_DATASET_SCHEMA_VERSION_MISSING",
+              "OKF_FIELD_INVALID",
+              "OKF_RESERVED_FILENAME",
+              "OKF_EVIDENCE_SECTION_MISSING",
+              "LOAD_ID_COLLISION",
+              "LOAD_REEXPORT_UNRESOLVED",
+              "LOAD_UNANNOTATED_TYPE_UNRESOLVED",
+              "SEARCH_LIMIT_CLAMPED",
+              "SAFETY_ABSOLUTE_PATH",
+              "SAFETY_HOME_PATH",
+              "SAFETY_SECRET_VALUE",
+              "SAFETY_STACK_TRACE",
+              "SAFETY_CREDENTIAL_URL",
+              "SAFETY_RAW_SQL",
+              "SAFETY_COMMAND_OUTPUT",
+              "SAFETY_PATH_ESCAPE"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "error",
+              "warning",
+              "info"
+            ]
+          },
+          "message": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "sourceRef": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              },
+              "line": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "endLine": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "symbol": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 160
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "additionalProperties": false
+          },
+          "safeDetail": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 80
+            },
+            "additionalProperties": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "suggestedAction": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          }
+        },
+        "required": [
+          "code",
+          "severity",
+          "message"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "enum": [
+              "CHECK_ENVELOPE_INVALID",
+              "CHECK_PROJECT_NOT_FOUND",
+              "CHECK_PROJECT_UNREADABLE",
+              "CHECK_PROJECT_UNSAFE",
+              "CHECK_PACKAGE_MANIFEST_MISSING",
+              "CHECK_TSCONFIG_MISSING",
+              "CHECK_GIT_UNAVAILABLE",
+              "CHECK_TRAVERSAL_POLICY_INVALID",
+              "CHECK_DATASET_MISSING",
+              "CHECK_DATASET_UNREADABLE",
+              "CHECK_DATASET_UNHEALTHY",
+              "CHECK_TEMPLATE_PACK_MISSING",
+              "CHECK_TEMPLATE_PACK_INVALID",
+              "CHECK_OUTPUT_NOT_WRITABLE",
+              "CHECK_OUTPUT_UNSAFE",
+              "LOAD_ENVELOPE_INVALID",
+              "SEARCH_ENVELOPE_INVALID",
+              "GENERATE_ENVELOPE_INVALID",
+              "GENERATE_REQUIRED_FACT_MISSING",
+              "GENERATE_DTO_INVALID",
+              "GENERATE_OUTPUT_REQUIRED",
+              "GENERATE_DATASET_MISSING",
+              "OKF_TYPE_MISSING",
+              "OKF_TITLE_MISSING",
+              "OKF_DESCRIPTION_MISSING",
+              "OKF_RESOURCE_MISSING",
+              "OKF_TAGS_MISSING",
+              "OKF_TIMESTAMP_MISSING",
+              "OKF_GENERATED_BY_MISSING",
+              "OKF_SCHEMA_VERSION_MISSING",
+              "OKF_SOURCE_SNAPSHOT_MISSING",
+              "OKF_TEMPLATE_ID_MISSING",
+              "OKF_TEMPLATE_VERSION_MISSING",
+              "OKF_DATASET_SCHEMA_VERSION_MISSING",
+              "OKF_FIELD_INVALID",
+              "OKF_RESERVED_FILENAME",
+              "OKF_EVIDENCE_SECTION_MISSING",
+              "LOAD_ID_COLLISION",
+              "LOAD_REEXPORT_UNRESOLVED",
+              "LOAD_UNANNOTATED_TYPE_UNRESOLVED",
+              "SEARCH_LIMIT_CLAMPED",
+              "SAFETY_ABSOLUTE_PATH",
+              "SAFETY_HOME_PATH",
+              "SAFETY_SECRET_VALUE",
+              "SAFETY_STACK_TRACE",
+              "SAFETY_CREDENTIAL_URL",
+              "SAFETY_RAW_SQL",
+              "SAFETY_COMMAND_OUTPUT",
+              "SAFETY_PATH_ESCAPE"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "error",
+              "warning",
+              "info"
+            ]
+          },
+          "message": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          },
+          "sourceRef": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              },
+              "line": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "endLine": {
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "symbol": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 160
+              }
+            },
+            "required": [
+              "path"
+            ],
+            "additionalProperties": false
+          },
+          "safeDetail": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 80
+            },
+            "additionalProperties": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 200
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "suggestedAction": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300
+          }
+        },
+        "required": [
+          "code",
+          "severity",
+          "message"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "toolVersion": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "datasetSchemaVersion": {
+          "type": "string",
+          "const": "ts-codegraph.dataset@1"
+        },
+        "timestamp": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{3})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        }
+      },
+      "required": [
+        "toolVersion",
+        "datasetSchemaVersion",
+        "timestamp"
+      ],
+      "additionalProperties": false
+    },
+    "command": {
+      "type": "string",
+      "const": "generate"
+    },
+    "schemaVersion": {
+      "type": "string",
+      "const": "ts-codegraph.generate@1"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "snapshotId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 180
+        },
+        "templatePack": {
+          "type": "object",
+          "properties": {
+            "packName": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 180
+            },
+            "packVersion": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 80
+            }
+          },
+          "required": [
+            "packName",
+            "packVersion"
+          ],
+          "additionalProperties": false
+        },
+        "generatedDocs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 180
+              },
+              "conceptPath": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              },
+              "templateId": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 180
+              },
+              "contentHash": {
+                "type": "string",
+                "pattern": "^sha256:[a-f0-9]{64}$"
+              }
+            },
+            "required": [
+              "id",
+              "conceptPath",
+              "templateId",
+              "contentHash"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "skippedDocs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 180
+              },
+              "conceptPath": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240
+              },
+              "templateId": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 180
+              },
+              "reasonCode": {
+                "type": "string",
+                "enum": [
+                  "CHECK_ENVELOPE_INVALID",
+                  "CHECK_PROJECT_NOT_FOUND",
+                  "CHECK_PROJECT_UNREADABLE",
+                  "CHECK_PROJECT_UNSAFE",
+                  "CHECK_PACKAGE_MANIFEST_MISSING",
+                  "CHECK_TSCONFIG_MISSING",
+                  "CHECK_GIT_UNAVAILABLE",
+                  "CHECK_TRAVERSAL_POLICY_INVALID",
+                  "CHECK_DATASET_MISSING",
+                  "CHECK_DATASET_UNREADABLE",
+                  "CHECK_DATASET_UNHEALTHY",
+                  "CHECK_TEMPLATE_PACK_MISSING",
+                  "CHECK_TEMPLATE_PACK_INVALID",
+                  "CHECK_OUTPUT_NOT_WRITABLE",
+                  "CHECK_OUTPUT_UNSAFE",
+                  "LOAD_ENVELOPE_INVALID",
+                  "SEARCH_ENVELOPE_INVALID",
+                  "GENERATE_ENVELOPE_INVALID",
+                  "GENERATE_REQUIRED_FACT_MISSING",
+                  "GENERATE_DTO_INVALID",
+                  "GENERATE_OUTPUT_REQUIRED",
+                  "GENERATE_DATASET_MISSING",
+                  "OKF_TYPE_MISSING",
+                  "OKF_TITLE_MISSING",
+                  "OKF_DESCRIPTION_MISSING",
+                  "OKF_RESOURCE_MISSING",
+                  "OKF_TAGS_MISSING",
+                  "OKF_TIMESTAMP_MISSING",
+                  "OKF_GENERATED_BY_MISSING",
+                  "OKF_SCHEMA_VERSION_MISSING",
+                  "OKF_SOURCE_SNAPSHOT_MISSING",
+                  "OKF_TEMPLATE_ID_MISSING",
+                  "OKF_TEMPLATE_VERSION_MISSING",
+                  "OKF_DATASET_SCHEMA_VERSION_MISSING",
+                  "OKF_FIELD_INVALID",
+                  "OKF_RESERVED_FILENAME",
+                  "OKF_EVIDENCE_SECTION_MISSING",
+                  "LOAD_ID_COLLISION",
+                  "LOAD_REEXPORT_UNRESOLVED",
+                  "LOAD_UNANNOTATED_TYPE_UNRESOLVED",
+                  "SEARCH_LIMIT_CLAMPED",
+                  "SAFETY_ABSOLUTE_PATH",
+                  "SAFETY_HOME_PATH",
+                  "SAFETY_SECRET_VALUE",
+                  "SAFETY_STACK_TRACE",
+                  "SAFETY_CREDENTIAL_URL",
+                  "SAFETY_RAW_SQL",
+                  "SAFETY_COMMAND_OUTPUT",
+                  "SAFETY_PATH_ESCAPE"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "conceptPath",
+              "templateId",
+              "reasonCode"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "manifest": {
+          "type": "object",
+          "properties": {
+            "manifestId": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 180
+            },
+            "manifestPath": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 240
+            },
+            "contentHash": {
+              "type": "string",
+              "pattern": "^sha256:[a-f0-9]{64}$"
+            },
+            "sections": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "sectionId": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 180
+                  },
+                  "slotId": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 180
+                  },
+                  "heading": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 200
+                  },
+                  "headingSlug": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 180
+                  }
+                },
+                "required": [
+                  "sectionId",
+                  "slotId",
+                  "heading",
+                  "headingSlug"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "manifestId",
+            "manifestPath",
+            "contentHash",
+            "sections"
+          ],
+          "additionalProperties": false
+        },
+        "diagnosticSummary": {
+          "type": "object",
+          "properties": {
+            "errors": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 9007199254740991
+            },
+            "warnings": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 9007199254740991
+            },
+            "info": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 9007199254740991
+            }
+          },
+          "required": [
+            "errors",
+            "warnings",
+            "info"
+          ],
+          "additionalProperties": false
+        },
+        "determinismInputs": {
+          "type": "object",
+          "properties": {
+            "snapshotId": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 180
+            },
+            "datasetSchemaVersion": {
+              "type": "string",
+              "const": "ts-codegraph.dataset@1"
+            },
+            "templatePackVersion": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 80
+            },
+            "normalizedTimestamp": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{3})?(?:Z|[+-]\\d{2}:\\d{2})$"
+            }
+          },
+          "required": [
+            "snapshotId",
+            "datasetSchemaVersion",
+            "templatePackVersion",
+            "normalizedTimestamp"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "snapshotId",
+        "templatePack",
+        "generatedDocs",
+        "skippedDocs",
+        "manifest",
+        "diagnosticSummary",
+        "determinismInputs"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "ok",
+    "diagnostics",
+    "warnings",
+    "meta",
+    "command",
+    "schemaVersion",
+    "data"
+  ],
+  "additionalProperties": false
+}

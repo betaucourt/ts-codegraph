@@ -1,0 +1,44 @@
+{
+  "name": "@codegraph/http-client",
+  "version": "0.1.0",
+  "description": "Safe outbound HTTP wrapper with timeout, retry/backoff, redirect policy, max body, JSON/text parsing, SSRF protection, trace propagation, and telemetry",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./generated": {
+      "import": "./dist/generated/http-client-entities.js",
+      "types": "./dist/generated/http-client-entities.d.ts"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "entities", "docs"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "clean": "rm -rf dist",
+    "pack:smoke": "node --import tsx/esm ./test/smoke/pack-smoke.ts",
+    "fixture:smoke": "node --import tsx/esm ./test/smoke/fixture-smoke.ts",
+    "weazel:generate": "node --import tsx/esm ./test/smoke/weazel-generate.ts"
+  },
+  "dependencies": {
+    "@codegraph/errors": "workspace:*",
+    "@codegraph/security": "workspace:*",
+    "@codegraph/telemetry": "workspace:*",
+    "@opentelemetry/api": "^1.9.1"
+  },
+  "devDependencies": {
+    "@codegraph/build": "workspace:*",
+    "@codegraph/testing": "workspace:*",
+    "@codegraph/weazel": "workspace:*",
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  },
+  "engines": { "node": ">=22.0.0" }
+}

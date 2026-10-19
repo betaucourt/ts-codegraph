@@ -1,0 +1,100 @@
+{
+  "manifestId": "manifest:v1:57936e6222ef4cf1",
+  "snapshotId": "snapshot:v1:project:v1:8423430b9f07e8ae:worktree:cfaa933199bac7c768498f2dee4dcdeda453ff22c1ad7100fc78ad0d5bd30e23",
+  "datasetSchemaVersion": "ts-codegraph.dataset@1",
+  "templatePack": {
+    "packName": "all",
+    "packVersion": "1.0.0"
+  },
+  "documents": [
+    {
+      "docId": "generated-doc:v1:06d2bfedf054e712",
+      "templateId": "package-overview",
+      "templateVersion": "1.0.0",
+      "conceptPath": "packages/fixture-load-tiny/overview.md",
+      "contentHash": "sha256:ed14c2d65871e523b08df6f2b47ed087afc887e7d061a963a0b4720ba953d542",
+      "sections": [
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:06d2bfedf054e712:objective",
+          "slotId": "objective",
+          "heading": "Objective",
+          "headingSlug": "objective"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:06d2bfedf054e712:exports",
+          "slotId": "exports",
+          "heading": "Exports",
+          "headingSlug": "exports"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:06d2bfedf054e712:dependencies",
+          "slotId": "dependencies",
+          "heading": "Dependencies",
+          "headingSlug": "dependencies"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:06d2bfedf054e712:evidence",
+          "slotId": "evidence",
+          "heading": "Sources Used",
+          "headingSlug": "sources-used"
+        }
+      ]
+    },
+    {
+      "docId": "generated-doc:v1:d38c911fe839c671",
+      "templateId": "api-reference",
+      "templateVersion": "1.0.0",
+      "conceptPath": "packages/fixture-load-tiny/api-reference.md",
+      "contentHash": "sha256:a18d6f470fcd293ef69433913ec18b0ad4f4d917cfd649cf9704973ad2df9cd1",
+      "sections": [
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:d38c911fe839c671:objective",
+          "slotId": "objective",
+          "heading": "Objective",
+          "headingSlug": "objective"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:d38c911fe839c671:symbols",
+          "slotId": "symbols",
+          "heading": "API",
+          "headingSlug": "api"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:d38c911fe839c671:symbol:f32b0972f2aeeb31",
+          "slotId": "symbol",
+          "heading": "UTIL_VERSION",
+          "headingSlug": "util-version",
+          "symbolId": "symbol:v1:6f67416dd1d72230"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:d38c911fe839c671:symbol:33122bb6b9090f32",
+          "slotId": "symbol",
+          "heading": "UtilMode",
+          "headingSlug": "utilmode",
+          "symbolId": "symbol:v1:8a22b8177293da8f"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:d38c911fe839c671:symbol:656d911fc3dc7658",
+          "slotId": "symbol",
+          "heading": "Widget",
+          "headingSlug": "widget",
+          "symbolId": "symbol:v1:b803fe1496c83365"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:d38c911fe839c671:symbol:323eb61d6d5b9780",
+          "slotId": "symbol",
+          "heading": "createWidget",
+          "headingSlug": "createwidget",
+          "symbolId": "symbol:v1:a6cff71d5b76974a"
+        },
+        {
+          "sectionId": "generated-section:v1:generated-doc:v1:d38c911fe839c671:evidence",
+          "slotId": "evidence",
+          "heading": "Sources Used",
+          "headingSlug": "sources-used"
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}
